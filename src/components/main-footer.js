@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { Component } from "react"
 
-const Footer = () => (
-  <footer>
-    This is the footer
-  </footer>
-);
+import { socialMedia, siteAuthor } from '@config';
 
-export default Footer;
+const Footer = () => {
+  return (
+    <footer>
+      <div>
+        <div>
+          <span>Diseñado y Desarrollado por</span>
+        </div>
+        <div>
+          <span>{siteAuthor}</span>
+          <span> 2020</span>
+        </div>
+      </div>
+      <div>
+        {
+          socialMedia.map(({name, url}, i) => (
+            <a key={i} href={url}>
+              {name}
+            </a>
+          )) 
+        }
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
