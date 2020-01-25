@@ -3,11 +3,12 @@ import React from "react"
 import { Header, Footer } from '@components';
 
 import '../scss/styles.scss';
+import classes from './layout.module.scss';
 
 const Layout = (props) => (
-  <div>
+  <div className={classes.site} >
     <Header />
-    <div >
+    <div className={classes.siteContent}>
       {props.children}
     </div>
     <Footer />
