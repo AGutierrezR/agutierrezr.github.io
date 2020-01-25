@@ -13,5 +13,14 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-alias-imports`,
+      options: {
+        aliases: {
+          "@config": 'src/config'
+        }
+      }
+    }
   ]
 }
