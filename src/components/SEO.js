@@ -1,24 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from "gatsby"
 
-const SEO = () => {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            author
-          }
-        }
-      }
-		`
-  )
-  
+import { siteTitle } from '@config'
+
+const SEO = () => {  
   return (
     <Helmet 
-      title={`${site.siteMetadata.author} | ${site.siteMetadata.title}`}
+      title={siteTitle}
       />
   )
 }
