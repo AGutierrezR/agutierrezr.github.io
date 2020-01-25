@@ -1,7 +1,6 @@
 import React from "react"
 
-import Header from './main-header';
-import Footer from './main-footer';
+import { Header, Footer } from '@components';
 
 import '../scss/styles.scss';
 
