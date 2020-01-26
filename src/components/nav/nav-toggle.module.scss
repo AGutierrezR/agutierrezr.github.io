@@ -1,3 +1,18 @@
+.div {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1;
+  height: 21px;
+
+  @media (min-width: 596px) {
+    display: none;
+  }
+
+  &::selection {
+    background: transparent;
+  }
+}
+
 .nav-toggle {
   display: inline-block;
   -webkit-transform: translate3d(0, 0, 0);
