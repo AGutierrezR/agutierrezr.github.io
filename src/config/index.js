@@ -21,5 +21,21 @@ module.exports = {
       name: 'Instagram',
       url: '#'
     }
+  ],
+  
+  navLinks: [
+    {
+      name: 'Inicio',
+      url: '#'
+    },
+    {
+      name: 'Portafolio',
+      url: '#'
+    },
+    {
+      name: 'Contacto',
+      url: '#'
+    }
   ]
+
 }

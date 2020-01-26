@@ -1,0 +1,52 @@
+.nav-toggle {
+  display: inline-block;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  cursor: pointer;
+}
+
+.is-open {
+  // Empty class for CSS Module
+}
+
+.layer,
+.layer::before,
+.layer::after {
+  display: block;
+  position: relative;
+  background: #333333;
+  border-radius: 2px;
+  border-radius: 0.2rem;
+  width: 30px;
+  width: 3rem;
+  height: 4px;
+  height: 0.4rem;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.layer::before {
+  content: "";
+  top: -8px;
+  top: -0.8rem;
+}
+.layer::after {
+  content: "";
+  top: 4px;
+  top: 0.4rem;
+}
+
+.nav-toggle.is-open .layer::before {
+  -webkit-transform: translateY(200%) rotate(45deg);
+          transform: translateY(200%) rotate(45deg);
+}
+.nav-toggle.is-open .layer {
+  background: transparent;
+}
+
+.nav-toggle.is-open .layer::after {
+  -webkit-transform: translateY(-200%) rotate(-45deg);
+          transform: translateY(-200%) rotate(-45deg);
+}
