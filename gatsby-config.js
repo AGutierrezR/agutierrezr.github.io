@@ -20,6 +20,7 @@ module.exports = {
         aliases: {
           "@config": 'src/config',
           "@components": 'src/components',
+          '@SCSSVariables': 'src/scss/helpers/variable.scss'
         }
       }
     }

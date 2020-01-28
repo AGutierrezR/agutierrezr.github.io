@@ -33,9 +33,17 @@ module.exports = {
       url: '#'
     },
     {
+      name: 'Blog',
+      url: '#'
+    },
+    {
+      name: 'Sobre mi',
+      url: '#'
+    },
+    {
       name: 'Contacto',
       url: '#'
-    }
+    },
   ]
 
 }

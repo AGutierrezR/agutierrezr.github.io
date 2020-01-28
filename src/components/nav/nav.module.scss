@@ -1,0 +1,69 @@
+@import '@SCSSVariables';
+
+$nav-link-color: $color-base;
+
+.nav-container {
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+
+  &.is-hidden .nav-link {
+    visibility: hidden;
+  }
+
+  &.is-hidden .nav-link-toggle {
+    visibility: visible;
+  }
+
+  .nav-item:nth-child(4),
+  .nav-item:nth-child(6) {
+    display: none;
+    @media (min-width: 596px) {
+      display: block;
+    }
+  }
+}
+
+.nav-link {
+  display: flex;
+  padding: .8rem;
+  text-decoration: none;
+  color: $nav-link-color;
+
+  svg {
+    height: 2rem;
+    width: 2rem;
+    fill: $nav-link-color
+  }
+
+  span {
+    padding-left: 1rem;
+
+    .nav-links & {
+      @media (max-width: 596px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.nav-links-mobile {
+  display: flex;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  flex-direction: column;
+  width: 100%;
+  padding: .8rem 1.2rem;
+  border: 1px dashed #a661c2;
+  top: 100%;
+  z-index: 5;
+}
+
+.nav-link-toggle {
+  margin-left: 1rem;
+  background: #fff;
+}
+
