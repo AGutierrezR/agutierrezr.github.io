@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Nav } from '@components'
+import { Logo, Nav } from '@components'
+
+import classes from '@CSSModules/header.module.scss';
 
 const Header = () => (
-  <header>
-    <div>
-      Logo
+  <header className={classes.header}>
+    <div className={classes.logo}>
+      <Logo />
     </div>
     <div>
       <Nav />

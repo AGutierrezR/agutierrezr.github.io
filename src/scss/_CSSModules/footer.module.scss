@@ -1,16 +1,32 @@
+@import '../helpers/all';
+
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 25px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
 }
 
 .copyright {
   margin-bottom: 2rem;
   text-align: center;
   width: auto;
+
+  @media (min-width: 768px) {
+    margin-bottom: initial;
+  }
+
+  .top,
+  .bottom {
+    display: inline-block;
+  }
 }
 
 .links {
@@ -19,6 +35,7 @@
   a {
    display: inline-block;
    text-decoration: none;
+   color: $color-base;
   
    &:not(:first-child) {
      margin-left: 2.4rem;
@@ -26,6 +43,7 @@
   
    svg {
      height: 2.2rem;
+     fill: currentColor;
    }
 }
 
