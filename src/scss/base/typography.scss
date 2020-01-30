@@ -1,0 +1,13 @@
+$body-color: $color-base;
+$body-font-family: $primary-font-family;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: $body-font-family;
+  color: $color-base;
+  line-height: 1.6;
+}

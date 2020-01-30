@@ -1,6 +1,6 @@
 ---
 title: 'Hola, soy Andres 👋'
-subtitle: 'Soy Desarrollador Web front-end'
+subtitle: 'Soy desarrollador web front-end'
 contactText: 'Contactame'
 ---
 

@@ -1,7 +1,6 @@
 @import '../helpers/all';
 
 .greetings {
-  font-size: 1.65rem;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -18,12 +17,26 @@
   @media (min-width: 768px) {
     font-size: 56px;
   }
+
+  @media (min-width: 768px) {
+    font-size: 68px;
+  }
+}
+
+.greetings,
+.description,
+.contact {
+  font-size: 18px;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .description {
-  font-size: 18px;
   margin-top: 25px;
   max-width: 500px;
+
 }
 
 .contact {

@@ -1,16 +1,16 @@
 @import '../helpers/all';
 
 .footer {
+  @include container;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   @media (min-width: 768px) {
     flex-direction: row;
-    padding-left: 48px;
-    padding-right: 48px;
   }
 }
 
