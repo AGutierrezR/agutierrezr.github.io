@@ -1,4 +1,4 @@
-@import '@SCSSVariables';
+@import '../helpers/all';
 
 $nav-link-color: $color-base;
 
@@ -42,7 +42,7 @@ $nav-link-color: $color-base;
     padding-left: 1rem;
 
     .nav-links & {
-      @media (max-width: 596px) {
+      @media (max-width: 786px) {
         display: none;
       }
     }
@@ -65,5 +65,9 @@ $nav-link-color: $color-base;
 .nav-link-toggle {
   margin-left: 1rem;
   background: #fff;
+
+  @media (min-width: 769px) {
+    display: none;
+  }
 }
 

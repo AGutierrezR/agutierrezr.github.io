@@ -1,0 +1,28 @@
+@import '../helpers/all';
+
+.header {
+  @include container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 375px) {
+    margin-top: 1.8rem;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 2.8rem;
+  }
+
+}
+
+.logo {
+
+
+  svg {
+    height: 40px
+  }
+}

@@ -20,9 +20,22 @@ module.exports = {
         aliases: {
           "@config": 'src/config',
           "@components": 'src/components',
-          '@SCSSVariables': 'src/scss/helpers/variable.scss'
+          '@CSSModules': 'src/scss/_CSSModules/'
         }
       }
-    }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content/`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [],
+      },
+    },
   ]
 }

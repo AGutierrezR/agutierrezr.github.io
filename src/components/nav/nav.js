@@ -11,7 +11,7 @@ import {
   IconUser,
 } from "@components/icons"
 
-import classes from "./nav.module.scss"
+import classes from "@CSSModules/nav.module.scss"
 
 class Nav extends Component {
   state = {
