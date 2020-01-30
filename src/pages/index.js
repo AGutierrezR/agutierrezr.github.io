@@ -6,11 +6,6 @@ import Hero from "../components/hero"
 import { graphql } from "gatsby"
 
 const IndexPage = ({ data }) => {
-  const { frontmatter, html } = data.hero.edges[0].node
-
-  console.log(data.hero.edges[0].node)
-  console.log(frontmatter)
-
   return (
     <Layout className="content-centered" >
       <SEO />
