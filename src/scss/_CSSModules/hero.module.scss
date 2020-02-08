@@ -1,5 +1,11 @@
 @import '../helpers/all';
 
+$color-subtitle: $primary-color;
+$color-contact-link: $color-base;
+$color-contact-link-hover: $color-subtitle;
+$color-contact-link-border: $color-subtitle;
+
+
 .greetings {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -7,8 +13,8 @@
 
 .subtitle {
   line-height: 1.1;
-  font-family: 'Exo', sans-serif;
   font-size: 41px;
+  color: $color-subtitle;
 
   @media (min-width: 375px) {
     font-size: 48px;
@@ -43,9 +49,13 @@
   margin-top: 20px;
 
   a {
-    color: $color-base;
+    color: $color-contact-link;
     text-decoration: none;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid $color-subtitle;
+    
+    &:hover {
+      color: $color-contact-link-hover;
+    }
   }
   
 }

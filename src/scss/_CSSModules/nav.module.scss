@@ -32,10 +32,15 @@ $nav-link-color: $color-base;
   text-decoration: none;
   color: $nav-link-color;
 
+  &:hover {
+    color: $primary-color;
+    background: #f9f9f9;
+  }
+
   svg {
     height: 2rem;
     width: 2rem;
-    fill: $nav-link-color
+    fill: currentColor
   }
 
   span {
@@ -57,7 +62,7 @@ $nav-link-color: $color-base;
   flex-direction: column;
   width: 100%;
   padding: .8rem 1.2rem;
-  border: 1px dashed #a661c2;
+  border: 1px dashed #039cb7;
   top: 100%;
   z-index: 5;
 }
