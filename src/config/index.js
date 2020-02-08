@@ -26,11 +26,11 @@ module.exports = {
   navLinks: [
     {
       name: 'Inicio',
-      url: '#'
+      url: '/'
     },
     {
       name: 'Portafolio',
-      url: '#'
+      url: '/portfolio'
     },
     {
       name: 'Blog',
