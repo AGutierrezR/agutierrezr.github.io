@@ -34,15 +34,15 @@ module.exports = {
     },
     {
       name: 'Blog',
-      url: '#'
+      url: '/'
     },
     {
       name: 'Sobre mi',
-      url: '#'
+      url: '/about'
     },
     {
       name: 'Contacto',
-      url: '#'
+      url: '/'
     },
   ]
 

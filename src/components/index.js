@@ -7,6 +7,7 @@ import NavToggle from './nav/nav-toggle';
 import Logo from './logo';
 import Hero from './hero';
 import ContentBox from './contentBox';
+import About from './about';
 
 export {
   SEO,
@@ -17,5 +18,6 @@ export {
   NavToggle,
   Logo,
   Hero,
-  ContentBox
+  ContentBox,
+  About
 }
