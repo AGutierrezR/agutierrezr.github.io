@@ -1,15 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/SEO"
-import Hero from "../components/hero"
+import { Layout, SEO, Hero } from '@components'
 import { graphql } from "gatsby"
 
 const IndexPage = ({ data }) => {
-  const { frontmatter, html } = data.hero.edges[0].node
-
-  console.log(data.hero.edges[0].node)
-  console.log(frontmatter)
 
   return (
     <Layout className="content-centered" >
