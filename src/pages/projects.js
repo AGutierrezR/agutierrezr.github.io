@@ -14,7 +14,7 @@ const ProjectsPage = ({ data }) => {
       <SEO />
       <Container>
 
-        <Title>Projectos</Title>
+        <Title>Proyectos</Title>
 
         <div>
           {data.projects.edges.map(({ node }) => {

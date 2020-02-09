@@ -36,6 +36,11 @@
    display: inline-block;
    text-decoration: none;
    color: $color-base;
+   transition: 0.5s;
+
+   &:hover {
+     color: $primary-color;
+   }
   
    &:not(:first-child) {
      margin-left: 2.4rem;

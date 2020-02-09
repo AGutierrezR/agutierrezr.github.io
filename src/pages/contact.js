@@ -10,12 +10,11 @@ import {
   IconInstagram,
 } from "@components/icons"
 
-import { Title } from '../components/styled-components';
-import { Container } from "../components/styled-components"
+import { Title, Container } from '../components/styled-components';
 
 import classes from '@CSSModules/contact.module.scss'
 
-const ContactPage = ({ data }) => {
+const ContactPage = () => {
   return (
     <Layout>
       <SEO />
@@ -27,7 +26,6 @@ const ContactPage = ({ data }) => {
 
         <ul>
         {socialMedia.map(({name, url, slug}) => {
-
           return (
             <li>
               <a className={classes.contactLink} href={url}>
@@ -46,7 +44,6 @@ const ContactPage = ({ data }) => {
               </a>
             </li>
           )
-
         })}
         </ul>
 
