@@ -1,7 +1,6 @@
 import React from 'react';  
 
-import { ContentBox } from '@components'
-import Skills from '../components/skills'
+import { Title } from './styled-components'
 
 import classes from '@CSSModules/about.module.scss';
 import Container from './container';
@@ -12,11 +11,8 @@ const About = ({ data }) => {
 
   return (
     <Container>
-      <h1 className={classes.title}>{title}</h1>
+      <Title>{title}</Title>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
-
-      {/* <Skills data={frontmatter} /> */}
-
     </Container>
 
   )
