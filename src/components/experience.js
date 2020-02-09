@@ -9,7 +9,7 @@ const Experience = ({ data }) => {
   return (
     <Container>
       <section>
-        <h3>Experiencia</h3>
+        <h3 className={classes.title}>Experiencia</h3>
         <div>
           {data.map(({node}, key) => {
             const {company, url, time, position} = node

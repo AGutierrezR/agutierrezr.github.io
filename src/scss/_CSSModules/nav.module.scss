@@ -28,9 +28,15 @@ $nav-link-color: $color-base;
 
 .nav-link {
   display: flex;
+  align-items: center;
   padding: .8rem;
   text-decoration: none;
   color: $nav-link-color;
+
+  &-active {
+    color: $primary-color;
+    background: #f9f9f9;
+  }
 
   &:hover {
     color: $primary-color;

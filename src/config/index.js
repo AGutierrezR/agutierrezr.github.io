@@ -34,7 +34,7 @@ module.exports = {
     },
     {
       name: 'Blog',
-      url: '/'
+      url: '/blog'
     },
     {
       name: 'Sobre mi',
@@ -42,7 +42,7 @@ module.exports = {
     },
     {
       name: 'Contacto',
-      url: '/'
+      url: '/contact'
     },
   ]
 

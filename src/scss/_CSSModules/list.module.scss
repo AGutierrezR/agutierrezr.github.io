@@ -5,10 +5,12 @@
     margin-bottom: 20px;
   }
 
-
   @media (min-width: 768px) {
     width: initial;
-    margin-bottom: initial;
+    &:nth-child(-n+2) {
+      margin-bottom: 0;
+    }
+
   }
 }
 
