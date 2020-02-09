@@ -1,0 +1,19 @@
+@import '../helpers/all';
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $color-base;
+  margin-bottom: 1rem;
+  
+  svg {
+    height: 2rem;
+    width: 2rem;
+    fill: currentColor
+  }
+
+  span {
+    padding-left: 1.5rem;
+  }
+}

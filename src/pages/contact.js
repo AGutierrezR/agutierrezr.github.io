@@ -1,0 +1,58 @@
+import React from "react"
+
+import { Layout, SEO } from "@components"
+import { socialMedia } from '@config'
+
+import {
+  IconEnv,
+  IconGithub,
+  IconLinkedin,
+  IconInstagram,
+} from "@components/icons"
+
+import { Title } from '../components/styled-components';
+import { Container } from "../components/styled-components"
+
+import classes from '@CSSModules/contact.module.scss'
+
+const ContactPage = ({ data }) => {
+  return (
+    <Layout>
+      <SEO />
+      <Container>
+
+        <Title>Contacto</Title>
+
+        <p>Puedes contactarme por:</p>
+
+        <ul>
+        {socialMedia.map(({name, url}) => {
+
+          return (
+            <li>
+              <a className={classes.contactLink} href={url}>
+                {name === "Email" ? (
+                  <IconEnv />
+                ) : name === "Github" ? (
+                  <IconGithub />
+                ) : name === "LinkedIn" ? (
+                  <IconLinkedin />
+                ) : name === "Insagram" ? (
+                  <IconInstagram />
+                ) : (
+                  <IconEnv />
+                )}
+                <span>{name}</span>
+              </a>
+            </li>
+          )
+
+        })}
+        </ul>
+
+      </Container>
+    </Layout>
+  )
+}
+
+export default ContactPage
