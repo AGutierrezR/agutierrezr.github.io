@@ -26,7 +26,7 @@ const ContactPage = ({ data }) => {
         <p>Puedes contactarme por:</p>
 
         <ul>
-        {socialMedia.map(({name, url}) => {
+        {socialMedia.map(({name, url, slug}) => {
 
           return (
             <li>
@@ -37,12 +37,12 @@ const ContactPage = ({ data }) => {
                   <IconGithub />
                 ) : name === "LinkedIn" ? (
                   <IconLinkedin />
-                ) : name === "Insagram" ? (
+                ) : name === "Instagram" ? (
                   <IconInstagram />
                 ) : (
                   <IconEnv />
                 )}
-                <span>{name}</span>
+                <span>{slug}</span>
               </a>
             </li>
           )

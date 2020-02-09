@@ -7,19 +7,23 @@ module.exports = {
   socialMedia: [
     {
       name: 'Email',
-      url: 'mailto:agutierrez.codes@gmail.com'
+      url: 'mailto:agutierrez.codes@gmail.com',
+      slug: 'agutierrez.codes@gmail.com'
     },
     {
       name: 'Github',
-      url: 'https://github.com/AGutierrezR'
+      url: 'https://github.com/AGutierrezR',
+      slug: '@AGutierrezR'
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/agutierrezr/'
+      url: 'https://www.linkedin.com/in/agutierrezr/',
+      slug: '@agutierrezr'
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/andy.codes/'
+      url: 'https://www.instagram.com/andy.codes/',
+      slug: '@andy.codes'
     }
   ],
   
