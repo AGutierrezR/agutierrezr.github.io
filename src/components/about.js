@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Title } from './styled-components'
 
-import Container from './container';
+import { Container } from './styled-components';
 
 const About = ({ data }) => {
   const { frontmatter, html } = data[0].node;

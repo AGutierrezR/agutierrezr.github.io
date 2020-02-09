@@ -2,7 +2,7 @@ import React from "react"
 import List from "./list"
 
 import classes from '@CSSModules/skills.module.scss'
-import Container from "./container"
+import { Container } from "./styled-components"
 
 const Skills = ({ data }) => {
 

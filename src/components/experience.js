@@ -2,7 +2,7 @@ import React from "react"
 
 import classes from '@CSSModules/experience.module.scss'
 import Job from "./job";
-import Container from "./container";
+import { Container } from "./styled-components";
 
 const Experience = ({ data }) => {
 
