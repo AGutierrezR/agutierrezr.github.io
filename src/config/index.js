@@ -29,13 +29,10 @@ module.exports = {
       url: '/'
     },
     {
-      name: 'Portafolio',
-      url: '/portfolio'
+      name: 'Proyectos',
+      url: '/projects'
     },
-    {
-      name: 'Blog',
-      url: '/blog'
-    },
+
     {
       name: 'Sobre mi',
       url: '/about'

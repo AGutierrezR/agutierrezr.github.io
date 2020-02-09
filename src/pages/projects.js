@@ -6,15 +6,15 @@ import { graphql } from "gatsby"
 import { Title } from '../components/styled-components';
 
 import Project from "../components/project"
-import Container from "../components/container"
+import { Container } from "../components/styled-components"
 
-const PortfolioPage = ({ data }) => {
+const ProjectsPage = ({ data }) => {
   return (
     <Layout>
       <SEO />
       <Container>
 
-        <Title>Projecto</Title>
+        <Title>Projectos</Title>
 
         <div>
           {data.projects.edges.map(({ node }) => {
@@ -29,7 +29,7 @@ const PortfolioPage = ({ data }) => {
   )
 }
 
-export default PortfolioPage
+export default ProjectsPage
 
 export const PageQuery = graphql`
   {

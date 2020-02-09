@@ -38,7 +38,7 @@ class Nav extends Component {
               <Link className={classes.navLink} activeClassName={classes.navLinkActive} to={url}>
                 {name === "Inicio" ? (
                   <IconHome />
-                ) : name === "Portafolio" ? (
+                ) : name === "Proyectos" ? (
                   <IconSuitcase />
                 ) : name === "Blog" ? (
                   <IconPencil />
@@ -67,7 +67,7 @@ class Nav extends Component {
               <Link className={classes.navLink} activeClassName={classes.navLinkActive} to={url}>
                 {name === "Inicio" ? (
                   <IconHome />
-                ) : name === "Portafolio" ? (
+                ) : name === "Proyectos" ? (
                   <IconSuitcase />
                 ) : name === "Blog" ? (
                   <IconPencil />

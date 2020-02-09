@@ -17,13 +17,13 @@ $nav-link-color: $color-base;
     visibility: visible;
   }
 
-  .nav-item:nth-child(4),
-  .nav-item:nth-child(6) {
-    display: none;
-    @media (min-width: 596px) {
-      display: block;
-    }
-  }
+  // .nav-item:nth-child(4),
+  // .nav-item:nth-child(6) {
+  //   display: none;
+  //   @media (min-width: 596px) {
+  //     display: block;
+  //   }
+  // }
 }
 
 .nav-link {
