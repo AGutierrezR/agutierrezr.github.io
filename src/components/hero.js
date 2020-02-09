@@ -1,7 +1,7 @@
 import React from 'react';
 import { email } from '@config';
 
-import ContentBox from './contentBox';
+import { ContentBox } from '@components'
 
 import classes from '@CSSModules/hero.module.scss';
 
@@ -15,7 +15,7 @@ const Hero = ({ data }) => {
       <div className={classes.description} dangerouslySetInnerHTML={{ __html: html }}></div>
       <div className={classes.contact}>
         <span>{frontmatter.contactText}</span>
-        <span> 👉 </span>
+        <span role="img"> 👉 </span>
         <span>
           <a href={`mailto:${email}`}>{email}</a>
         </span>

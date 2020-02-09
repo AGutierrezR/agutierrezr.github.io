@@ -5,6 +5,8 @@ import Footer from './footer/footer';
 import Nav from './nav/nav';
 import NavToggle from './nav/nav-toggle';
 import Logo from './logo';
+import Hero from './hero';
+import ContentBox from './contentBox';
 
 export {
   SEO,
@@ -13,5 +15,7 @@ export {
   Footer,
   Nav,
   NavToggle,
-  Logo
+  Logo,
+  Hero,
+  ContentBox
 }

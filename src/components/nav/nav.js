@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from 'gatsby';
 
 import { navLinks } from "@config"
 import { NavToggle } from "@components"
@@ -34,7 +35,7 @@ class Nav extends Component {
         <ul className={classes.navLinksMobile}>
           {navLinks.map(({ name, url }, key) => (
             <li key={key}>
-              <a className={classes.navLink} href={url}>
+              <Link className={classes.navLink} to={url}>
                 {name === "Inicio" ? (
                   <IconHome />
                 ) : name === "Portafolio" ? (
@@ -51,7 +52,7 @@ class Nav extends Component {
                   <IconHome />
                 )}
                 <span>{name}</span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -63,7 +64,7 @@ class Nav extends Component {
         <ul className={navLinksClasses.join(" ")}>
           {navLinks.map(({ name, url }, key) => (
             <li key={key} className={classes.navItem}>
-              <a className={classes.navLink} href={url}>
+              <Link className={classes.navLink} to={url}>
                 {name === "Inicio" ? (
                   <IconHome />
                 ) : name === "Portafolio" ? (
@@ -80,7 +81,7 @@ class Nav extends Component {
                   <IconHome />
                 )}
                 <span>{name}</span>
-              </a>
+              </Link>
             </li>
           ))}
           <li className={toggleClasses.join(" ")}>
