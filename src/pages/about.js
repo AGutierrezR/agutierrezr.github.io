@@ -2,12 +2,17 @@ import React from "react"
 
 import { Layout, SEO, About } from '@components'
 import { graphql } from "gatsby"
+import Skills from "../components/skills";
+import Experience from "../components/experience";
 
-const AboutPage = ({data}) => {  
+const AboutPage = ({data}) => { 
+  
   return (
     <Layout className="content-centered" >
       <SEO />
       <About data={data.about.edges} />
+      <Skills data={data.skills.edges} />
+      <Experience data={data.experience.edges} />
     </Layout>
   )
 }
@@ -27,6 +32,26 @@ export const pageQuery = graphql`
             design
           }
           html
+        }
+      }
+    }
+    skills: allDataYaml {
+      edges {
+        node {
+          languages
+          frameworks
+          tools
+          design
+        }
+      }
+    }
+    experience: allExperienceYaml {
+      edges {
+        node {
+          company
+          url
+          time
+          position
         }
       }
     }

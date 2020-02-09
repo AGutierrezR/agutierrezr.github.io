@@ -4,23 +4,20 @@ import { ContentBox } from '@components'
 import Skills from '../components/skills'
 
 import classes from '@CSSModules/about.module.scss';
+import Container from './container';
 
 const About = ({ data }) => {
-
-
   const { frontmatter, html } = data[0].node;
+  const { title } = frontmatter;
 
-  const { title, languages, frameworks, tools, design } = frontmatter;
-
-    
   return (
-    <ContentBox>
+    <Container>
       <h1 className={classes.title}>{title}</h1>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
 
-      <Skills data={frontmatter} />
+      {/* <Skills data={frontmatter} /> */}
 
-    </ContentBox>
+    </Container>
 
   )
 }
