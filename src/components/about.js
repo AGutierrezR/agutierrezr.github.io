@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Title } from './styled-components'
 
-import classes from '@CSSModules/about.module.scss';
 import Container from './container';
 
 const About = ({ data }) => {
