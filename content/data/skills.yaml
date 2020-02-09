@@ -1,0 +1,25 @@
+languages:
+  - JavaScript (ES6)
+  - TypeScript
+  - HTML
+  - CSS/Sass
+  - SQL
+  - GraphQL
+frameworks:
+  - React
+  - Jekyll
+  - Node
+  - Wordpress
+  - Timber
+tools:
+  - Bash
+  - Git & Github
+  - Gulp & Grunt
+  - Chrome DevTools
+  - Postman
+design:
+  - Photoshop
+  - Illustrator
+  - XD
+  - Figma
+  - Sketch
