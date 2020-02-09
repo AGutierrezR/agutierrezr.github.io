@@ -26,10 +26,6 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            languages
-            frameworks
-            tools
-            design
           }
           html
         }
