@@ -1,0 +1,23 @@
+.list-container {
+  width: calc(50% - 10px);
+
+  &:nth-child(-n+2) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 768px) {
+    width: initial;
+    &:nth-child(-n+2) {
+      margin-bottom: 0;
+    }
+
+  }
+}
+
+.list-title {
+  margin-bottom: 0.8rem;
+}
+
+.list-item {
+  margin-bottom: 0.4rem;
+}

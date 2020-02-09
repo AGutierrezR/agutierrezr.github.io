@@ -14,6 +14,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-alias-imports`,
       options: {
@@ -35,6 +36,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/data/`,
       },
     },
   ]

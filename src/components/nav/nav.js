@@ -35,7 +35,7 @@ class Nav extends Component {
         <ul className={classes.navLinksMobile}>
           {navLinks.map(({ name, url }, key) => (
             <li key={key}>
-              <Link className={classes.navLink} to={url}>
+              <Link className={classes.navLink} activeClassName={classes.navLinkActive} to={url}>
                 {name === "Inicio" ? (
                   <IconHome />
                 ) : name === "Portafolio" ? (
@@ -64,7 +64,7 @@ class Nav extends Component {
         <ul className={navLinksClasses.join(" ")}>
           {navLinks.map(({ name, url }, key) => (
             <li key={key} className={classes.navItem}>
-              <Link className={classes.navLink} to={url}>
+              <Link className={classes.navLink} activeClassName={classes.navLinkActive} to={url}>
                 {name === "Inicio" ? (
                   <IconHome />
                 ) : name === "Portafolio" ? (
