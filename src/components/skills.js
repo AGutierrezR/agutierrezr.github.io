@@ -6,17 +6,16 @@ import { Container } from "./styled-components"
 
 const Skills = ({ data }) => {
 
-  
-  const { languages, frameworks, tools, design } = data[0].node
-
   return (
     <Container>
       <section className={classes.skillsSection}>
         <div className={classes.skills}>
-          <List title="Lenguajes" list={languages} />
-          <List title="Frameworks" list={frameworks} />
-          <List title="Herramientas" list={tools} />
-          <List title="Diseño" list={design} />
+          {data.map(({node}, key) => {
+            const {title, list} = node;
+            return (
+              <List key={key} title={title} list={list} />
+            )
+          })}
         </div>
       </section>
 

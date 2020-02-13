@@ -31,13 +31,11 @@ export const pageQuery = graphql`
         }
       }
     }
-    skills: allDataYaml {
+    skills: allSkillsYaml {
       edges {
         node {
-          languages
-          frameworks
-          tools
-          design
+          title
+          list
         }
       }
     }
