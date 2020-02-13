@@ -17,11 +17,16 @@ const ProjectsPage = ({ data }) => {
         <Title>Proyectos</Title>
 
         <div>
-          {data.projects.edges.map(({ node }) => {
+          {data.projects.edges.map(({ node }, key) => {
             const { frontmatter, html } = node
             const { title, url, tech } = frontmatter
-
-            return <Project title={title} url={url} tech={tech} html={html} />
+            return (
+              <Project 
+                key={key}
+                title={title} 
+                url={url} 
+                tech={tech} 
+                html={html} />)
           })}
         </div>
       </Container>

@@ -10,8 +10,8 @@ const Project = ({ title, url, tech, html }) => {
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
       <footer>
         <ul className={classes.techList}>
-          {tech.map(item => {
-            return <li>{item}</li>
+          {tech.map((item, key) => {
+            return <li key={key}>{item}</li>
           })}
         </ul>
       </footer>
