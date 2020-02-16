@@ -10,4 +10,4 @@ tech:
   - MySQL
 ---
 
-Creacion de blog de Servicioshosting.com usando WordPress, PHP, MySQL.
+Creación de blog de Servicioshosting.com usando WordPress, PHP, MySQL.

@@ -10,4 +10,4 @@ tech:
   - jQuery
 ---
 
-Cotizador automatico para usuarios, donde puede crear y recibir cotizaciones por email.
+Cotizador automático para usuarios, donde puede crear y recibir cotizaciones por email.

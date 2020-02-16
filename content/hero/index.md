@@ -1,7 +1,7 @@
 ---
-title: 'Hola, soy Andres 👋'
+title: 'Hola, soy Andrés 👋'
 subtitle: 'Soy desarrollador web front-end'
-contactText: 'Contactame'
+contactText: 'Contácteme'
 ---
 
-Me especializo en construir paginas y aplicaciones web de alta calidad.
+Me especializo en construir páginas y aplicaciones web de alta calidad.

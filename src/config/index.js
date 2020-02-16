@@ -1,8 +1,8 @@
 module.exports = {
-  siteTitle: 'Andres Gutierrez | Desarrollador Front End',
+  siteTitle: 'Andrés Gutiérrez | Desarrollador Front End',
   siteURL: 'https://agutierrezr.github.io',
   siteDescription: '',
-  name: 'Andres Gutierrez',
+  name: 'Andrés Gutiérrez',
   email: 'agutierrez.codes@gmail.com',
   socialMedia: [
     {
