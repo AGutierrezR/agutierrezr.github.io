@@ -1,0 +1,16 @@
+{
+  "title": "Fonts",
+  "description": "Each array of fonts creates a priority-based order. The first font in the array should be the ideal font, followed by sensible, web-safe fallbacks",
+  "items": [
+    {
+      "name": "Base",
+      "description": "Nunito",
+      "value": ["Nunito", "sans-serif"]
+    },
+    {
+      "name": "Heading",
+      "description": "Exo",
+      "value": ["Exo", "sans-serif"]
+    }
+  ]
+}
