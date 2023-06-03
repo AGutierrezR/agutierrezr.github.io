@@ -1,0 +1,3 @@
+:root {
+  --wrapper-width: clamp(16rem, 93vw, 85rem);
+}
