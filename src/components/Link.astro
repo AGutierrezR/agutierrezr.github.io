@@ -1,0 +1,7 @@
+---
+const isCurrent = Astro.props.href === Astro.url.pathname
+---
+
+<a aria-current={isCurrent ? 'page' : null} {...Astro.props}>
+  <slot />
+</a>

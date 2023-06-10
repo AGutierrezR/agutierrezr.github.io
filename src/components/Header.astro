@@ -1,4 +1,27 @@
 ---
+import { Icon } from 'astro-icon'
+import navItems from '../_data/nav'
+import Link from './Link.astro'
+
+const currentPath = Astro.url.pathname
 ---
 
-<header role="banner" class="site-header wrapper">Header</header>
+<header role="banner" class="site-header wrapper">
+  <div class="repel">
+    <a class="site-header__brand" href="/" aria-label="Andres Gutierrez">
+      <Icon name="logomark" height="1em" width="1em" />
+    </a>
+
+    <nav aria-label="primary">
+      <ul role="list" class="cluster">
+        {
+          navItems.map((link) => (
+            <li>
+              <Link href={link.path}>{link.name}</Link>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>
