@@ -13,6 +13,9 @@
 
 @import './compositions/cluster.css';
 @import './compositions/repel.css';
+
+@import './utilities/flow.css';
+@import './utilities/region.css';
 @import './utilities/wrapper.css';
 
 @import 'tailwindcss/utilities';
