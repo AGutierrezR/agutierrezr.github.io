@@ -1,0 +1,8 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+}
+
+.cover > div {
+  margin-block: auto;
+}

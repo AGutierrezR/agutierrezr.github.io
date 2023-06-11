@@ -1,0 +1,23 @@
+.home-intro {
+  --flow-space: 1.5em;
+  --gutter: 1rem;
+  max-width: 50rem;
+}
+
+.home-intro h1 {
+  font-size: var(--size-step-1);
+  color: var(--color-mid);
+}
+
+.home-intro p:first-of-type {
+  --flow-space: 0.2em;
+  line-height: 1.1;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: var(--size-step-5);
+  max-width: 18ch;
+}
+
+.home-intro p:first-of-type ~ p {
+  max-width: 56ch;
+}

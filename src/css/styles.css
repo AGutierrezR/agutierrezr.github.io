@@ -10,8 +10,10 @@
 
 @import './blocks/prose.css';
 @import './blocks/site-header.css';
+@import './blocks/home-intro.css';
 
 @import './compositions/cluster.css';
+@import './compositions/cover.css';
 @import './compositions/repel.css';
 
 @import './utilities/flow.css';
