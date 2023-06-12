@@ -1,0 +1,14 @@
+---
+import MainLayout from './MainLayout.astro'
+
+const { frontmatter } = Astro.props
+---
+
+<MainLayout title="Andres Gutierrez">
+  <main class={frontmatter.class}>
+    <div class="wrapper prose region flow">
+      <h1>{frontmatter.title}</h1>
+      <slot />
+    </div>
+  </main>
+</MainLayout>

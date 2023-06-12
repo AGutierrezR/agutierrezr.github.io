@@ -34,6 +34,10 @@ h3 {
   line-height: 1.2;
 }
 
+h4 {
+  font-size: var(--size-base);
+}
+
 :is(h1, h2, h3, h4) {
   font-family: var(--font-heading);
   font-weight: 700;

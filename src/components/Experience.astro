@@ -1,0 +1,19 @@
+---
+import yml from '../_data/experience.yaml'
+---
+
+<div class="experience flow">
+  {
+    yml.map((item) => (
+      <div>
+        <div class="experience__detail">
+          <a class="font-bold no-underline" href={item.url}>
+            {item.company}
+          </a>
+          <span class="block text-step-0">{item.time}</span>
+        </div>
+        <p class="experience__position">{item.position}</p>
+      </div>
+    ))
+  }
+</div>

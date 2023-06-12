@@ -1,0 +1,18 @@
+---
+import yml from '../_data/skills.yaml'
+---
+
+<div class="skills auto-grid">
+  {
+    yml.map((item) => (
+      <div>
+        <h4>{item.title}</h4>
+        <ul role="list">
+          {item.list.map((skill) => (
+            <li>{skill}</li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
+</div>

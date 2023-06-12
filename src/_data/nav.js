@@ -7,10 +7,10 @@ const navItems = [
   //   name: 'Blog',
   //   path: '/blog',
   // },
-  // {
-  //   name: 'Sobre mi',
-  //   path: '/about',
-  // },
+  {
+    name: 'Sobre mi',
+    path: '/about',
+  },
   // {
   //   name: 'Links',
   //   path: '/links',
