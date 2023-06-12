@@ -16,5 +16,8 @@
     "astro-icon": "^0.8.0",
     "slugify": "^1.6.6",
     "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^4.1.0"
   }
 }
