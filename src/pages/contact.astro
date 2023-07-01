@@ -1,0 +1,29 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+import socialMedia from '../_data/social-media'
+import { Icon } from 'astro-icon';
+---
+
+<MainLayout>
+  <main>
+    <div class="wrapper prose region flow">
+      <h1>Contacto</h1>
+      <p>Me puedes contactar por:</p>
+      <ul role="list">
+        {
+          socialMedia.map(({ name, url, slug, icon }) => {
+            return (
+              <li>
+                <a href={url} class="inline-flex items-center gap-2xs" aria-label={`link to ${name}`}>
+                  <Icon width="20" name={`fa:${icon}`} />
+                  {slug}
+                  </a>
+              </li>
+            )
+          })
+        }
+        <a href=""></a>
+      </ul>
+    </div>
+  </main>
+</MainLayout>

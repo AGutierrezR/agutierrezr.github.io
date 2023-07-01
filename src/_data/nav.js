@@ -3,18 +3,14 @@ const navItems = [
     name: 'Inicio',
     path: '/',
   },
-  // {
-  //   name: 'Blog',
-  //   path: '/blog',
-  // },
   {
     name: 'Sobre mi',
     path: '/about',
   },
-  // {
-  //   name: 'Links',
-  //   path: '/links',
-  // },
+  {
+    name: 'Contacto',
+    path: '/contact'
+  }
 ]
 
 export default navItems
