@@ -21,6 +21,7 @@
 
 @import './utilities/flow.css';
 @import './utilities/region.css';
+@import './utilities/title.css';
 @import './utilities/wrapper.css';
 
 @import 'tailwindcss/utilities';
