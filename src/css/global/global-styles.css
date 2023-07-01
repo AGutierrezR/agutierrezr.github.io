@@ -42,6 +42,12 @@ h4 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
+  display: flex;
+  gap: 1ch;
+}
+
+:is(h1, h2, h3):before {
+  color: var(--color-mid);
 }
 
 a {
@@ -66,4 +72,21 @@ dl,
 blockquote,
 figcaption {
   max-width: 65ch;
+}
+
+@media (min-width: 54em) {
+  h1::before {
+    content: '#';
+    margin-inline-start: -2.2ch;
+  }
+
+  h2::before {
+    content: '##';
+    margin-inline-start: -3.2ch;
+  }
+
+  h3::before {
+    content: '###';
+    margin-inline-start: -4.5ch;
+  }
 }

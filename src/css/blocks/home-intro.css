@@ -9,6 +9,10 @@
   color: var(--color-mid);
 }
 
+.home-intro h1::before {
+  all:unset
+}
+
 .home-intro p:first-of-type {
   --flow-space: 0.2em;
   line-height: 1.1;
