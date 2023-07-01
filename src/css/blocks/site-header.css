@@ -1,0 +1,21 @@
+.site-header .repel {
+  --gutter: 0.5rem var(--space-m);
+  padding-block: var(--space-m);
+}
+
+.site-header nav ul {
+  margin: 0;
+  font-size: var(--size-step-neg-1);
+}
+
+.site-header nav [aria-current='page'] {
+  color: var(--color-primary);
+}
+
+.site-header__brand {
+  display: inline-block;
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  height: 2.5rem;
+  line-height: 0;
+}

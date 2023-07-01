@@ -1,0 +1,9 @@
+.prose {
+  --flow-space: var(--space-m-l);
+  line-height: 1.8;
+  max-width: 50rem;
+}
+
+.prose h1 + * {
+  --flow-space: 0.5em;
+}

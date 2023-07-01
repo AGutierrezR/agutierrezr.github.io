@@ -1,0 +1,15 @@
+.about .skills {
+  --grid-placement: 2;
+  --grid-min-item-size: 12ch;
+
+  justify-content: space-between;
+}
+
+@media screen(sm) {
+  .about .skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}

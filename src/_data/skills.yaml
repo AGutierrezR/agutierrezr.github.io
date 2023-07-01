@@ -1,0 +1,32 @@
+- title: 'Lenguajes'
+  list:
+    - JavaScript (ES6)
+    - TypeScript
+    - HTML
+    - CSS/Sass
+    - SQL
+    - GraphQL
+
+- title: 'Frameworks'
+  list:
+    - React
+    - Jekyll
+    - Node
+    - Wordpress
+    - Timber
+
+- title: 'Herramientas'
+  list:
+    - Git & Github
+    - Webpack / Vite
+    - Gulp & Grunt
+    - Dev Tools
+    - Postman
+
+- title: 'Diseño'
+  list:
+    - Figma
+    - Adobe XD
+    - Sketch
+    - Photoshop
+    - Illustrator

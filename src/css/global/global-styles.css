@@ -1,0 +1,92 @@
+/* 
+  Global styles 
+
+  Low-specificity, global styles that apply to the whole 
+  project: https://cube.fyi/css.html
+*/
+body {
+  background: var(--color-light);
+  color: var(--color-dark);
+  line-height: 1.6;
+  font-size: var(--size-base);
+  font-family: var(--font-base);
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border-top: 6px solid var(--color-primary);
+}
+
+main {
+  flex: auto;
+}
+
+h1 {
+  font-size: var(--size-step-3);
+}
+
+h2 {
+  font-size: var(--size-step-2);
+}
+
+h3 {
+  font-size: var(--size-step-1);
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: var(--size-base);
+}
+
+:is(h1, h2, h3, h4) {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  display: flex;
+  gap: 1ch;
+}
+
+:is(h1, h2, h3):before {
+  color: var(--color-mid);
+}
+
+a {
+  color: currentColor;
+  text-decoration-color: var(--color-primary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2ex;
+}
+
+a:hover {
+  text-underline-offset: 0.1ex;
+}
+
+[role='list'] {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+p,
+li,
+dl,
+blockquote,
+figcaption {
+  max-width: 65ch;
+}
+
+@media (min-width: 54em) {
+  h1::before {
+    content: '#';
+    margin-inline-start: -2.2ch;
+  }
+
+  h2::before {
+    content: '##';
+    margin-inline-start: -3.2ch;
+  }
+
+  h3::before {
+    content: '###';
+    margin-inline-start: -4.5ch;
+  }
+}

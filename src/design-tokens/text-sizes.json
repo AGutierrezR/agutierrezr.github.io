@@ -1,0 +1,46 @@
+{
+  "title": "Text Sizes",
+  "description": "A minimum and maximum text size size allows you to pick the right size from a ratio, depending on the context size. The min and max sizes are in pixels and should be converted to appropiate sizes, per context. For example, for web, the should be converted to REM units (pixelSize / baseSize)",
+  "items": [
+    {
+      "name": "Step neg 1",
+      "min": 16,
+      "max": 18
+    },
+    {
+      "name": "Base",
+      "min": 18,
+      "max": 20
+    },
+    {
+      "name": "Step 0",
+      "min": 14,
+      "max": 16
+    },
+    {
+      "name": "Step 1",
+      "min": 18,
+      "max": 20
+    },
+    {
+      "name": "Step 2",
+      "min": 23,
+      "max": 28
+    },
+    {
+      "name": "Step 3",
+      "min": 27,
+      "max": 35
+    },
+    {
+      "name": "Step 4",
+      "min": 33,
+      "max": 43
+    },
+    {
+      "name": "Step 5",
+      "min": 41,
+      "max": 68
+    }
+  ]
+}

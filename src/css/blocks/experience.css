@@ -1,0 +1,10 @@
+.experience > * {
+  --flow-space: var(--space-s);
+}
+
+@media screen(sm) {
+  .experience__detail {
+    display: flex;
+    justify-content: space-between;
+  }
+}
