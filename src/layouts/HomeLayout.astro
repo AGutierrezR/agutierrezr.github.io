@@ -1,8 +1,10 @@
 ---
 import MainLayout from './MainLayout.astro'
+
+const { frontmatter } = Astro.props
 ---
 
-<MainLayout title="Andres Gutierrez">
+<MainLayout title={frontmatter.metaTitle} description={frontmatter.metaDesc}>
   <main class="cover">
     <div class="home-intro wrapper flow">
       <slot />
