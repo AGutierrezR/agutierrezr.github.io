@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props
 ---
 
 <MainLayout title={frontmatter.metaTitle} description={frontmatter.metaDesc}>
-  <main class="cover">
+  <main tabindex="-1" id="main-content" class="cover">
     <div class="home-intro wrapper flow">
       <slot />
     </div>

@@ -13,6 +13,7 @@
 @import './blocks/home-intro.css';
 @import './blocks/about.css';
 @import './blocks/experience.css';
+@import './blocks/skip-link.css';
 
 @import './compositions/cluster.css';
 @import './compositions/cover.css';
