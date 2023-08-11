@@ -9,11 +9,12 @@
 
 - title: 'Frameworks'
   list:
-    - React
+    - React / Angular
+    - Jest / Jasmine
+    - Astro
+    - AlpineJS
+    - Tailwind
     - Jekyll
-    - Node
-    - Wordpress
-    - Timber
 
 - title: 'Herramientas'
   list:
@@ -27,6 +28,4 @@
   list:
     - Figma
     - Adobe XD
-    - Sketch
-    - Photoshop
     - Illustrator

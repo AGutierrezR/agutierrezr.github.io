@@ -2,10 +2,10 @@
 import yml from '../_data/experience.yaml'
 ---
 
-<div class="experience flow">
+<ul role="list" class="experience flow" aria-label="Experiencia laboral">
   {
     yml.map((item) => (
-      <div>
+      <li>
         <div class="experience__detail">
           <a class="font-bold no-underline" href={item.url}>
             {item.company}
@@ -13,7 +13,7 @@ import yml from '../_data/experience.yaml'
           <span class="block text-step-0">{item.time}</span>
         </div>
         <p class="experience__position">{item.position}</p>
-      </div>
+      </li>
     ))
   }
-</div>
+</ul>

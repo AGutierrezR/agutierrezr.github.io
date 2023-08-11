@@ -5,6 +5,14 @@
   justify-content: space-between;
 }
 
+.about ul li::marker{
+  all: unset
+}
+
+.about .skills ul li{
+  margin-top: unset
+}
+
 @media screen(sm) {
   .about .skills {
     display: flex;
