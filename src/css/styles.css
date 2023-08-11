@@ -8,6 +8,7 @@
 @import './global/variables.css';
 @import './global/global-styles.css';
 
+@import './blocks/content.css';
 @import './blocks/prose.css';
 @import './blocks/prism.css';
 @import './blocks/site-header.css';
