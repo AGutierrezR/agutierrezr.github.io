@@ -61,9 +61,9 @@ a:hover {
   text-underline-offset: 0.1ex;
 }
 
-[role='list'] {
-  padding: 0;
-  margin-bottom: 0;
+time {
+  display: block;
+  font-style: italic;
 }
 
 p,
@@ -74,8 +74,39 @@ figcaption {
   max-width: 65ch;
 }
 
+[role='list'] {
+  padding: 0;
+  margin-bottom: 0;
+}
+
 main:focus {
   outline: none;
+}
+
+code {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1em;
+  hyphens: none;
+  tab-size: 2;
+  text-align: left;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+pre {
+  padding: var(--space-xs);
+  background: var(--color-dark);
+
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+pre code {
+  color: var(--color-light);
 }
 
 @media (min-width: 54em) {

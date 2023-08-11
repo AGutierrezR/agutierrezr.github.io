@@ -4,6 +4,15 @@
   max-width: 50rem;
 }
 
+.prose > img,
+.prose > table {
+  width: 100%;
+}
+
+.prose figure img {
+  border: 1px dashed var(--color-mid);
+  margin-inline: auto;
+}
 
 .prose ul li::marker {
   content: '- ';
@@ -23,6 +32,24 @@
   margin-top: var(--space-s);
 }
 
+/* More space after and around certain elements */
+.prose :is(pre, pre + *, figure, figure + *, h2, h3, h4) {
+  --flow-space: var(--space-l-xl);
+}
+
+/* Less space for items that follow headings */
 .prose h1 + * {
   --flow-space: 0.5em;
+}
+
+.prose :is(h2 + *, h3 + *, h4 + *) {
+  --flow-space: var(--space-s);
+}
+
+/* Break out code */
+.prose :is(pre) {
+  margin-left: 50%;
+  max-width: 60rem;
+  transform: translateX(-50%);
+  width: 100vw
 }

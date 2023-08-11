@@ -10,6 +10,10 @@ export default defineConfig({
   vite: {
     plugins: [yaml()],
   },
+  markdown: {
+    syntaxHighlight: 'prism',
+    gfm: true,
+  },
   integrations: [
     tailwind({
       config: {
