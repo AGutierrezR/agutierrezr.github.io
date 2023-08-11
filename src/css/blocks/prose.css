@@ -4,6 +4,25 @@
   max-width: 50rem;
 }
 
+
+.prose ul li::marker {
+  content: '- ';
+  color: var(--color-mid);
+  font-weight: bold;
+}
+
+.prose :is(ol, ul) {
+  padding: 0;
+}
+
+.prose ol li::marker {
+  color: var(--color-mid);
+}
+
+.prose li + li {
+  margin-top: var(--space-s);
+}
+
 .prose h1 + * {
   --flow-space: 0.5em;
 }

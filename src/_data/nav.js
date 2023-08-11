@@ -4,6 +4,10 @@ const navItems = [
     path: '/',
   },
   {
+    name: 'Blog',
+    path: '/blog',
+  },
+  {
     name: 'Sobre mi',
     path: '/about',
   },
