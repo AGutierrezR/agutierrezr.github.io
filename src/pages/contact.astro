@@ -9,14 +9,13 @@ import { Icon } from 'astro-icon'
   description="Estos son los lugares donde me puedes encontrar en la web"
 >
   <main tabindex="-1" id="main-content">
-    <div class="wrapper prose region flow">
+    <div class="wrapper content region flow">
       <h1>Contacto</h1>
       <p>Me puedes contactar por:</p>
       <nav>
         <ul role="list">
           {
-            socialMedia.map(({ name, url, slug, icon }) => {
-              return (
+            socialMedia.map(({ name, url, slug, icon }) => 
                 <li>
                   <a
                     href={url}
@@ -28,8 +27,7 @@ import { Icon } from 'astro-icon'
                     {slug}
                   </a>
                 </li>
-              )
-            })
+            )
           }
         </ul>
       </nav>

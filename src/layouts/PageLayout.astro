@@ -6,7 +6,7 @@ const { frontmatter } = Astro.props
 
 <MainLayout title={frontmatter.metaTitle} description={frontmatter.metaDesc}>
   <main tabindex="-1" id="main-content" class={frontmatter.class}>
-    <div class="wrapper prose region flow">
+    <div class="wrapper content region flow">
       <h1>{frontmatter.title}</h1>
       <slot />
     </div>
