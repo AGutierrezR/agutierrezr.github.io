@@ -1,8 +1,9 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro'
+import { formatBlogPosts } from '../../js/utils'
 
 const allPosts = await Astro.glob('./**/*.md')
-console.log(allPosts[0].url)
+const formattedPosts = formatBlogPosts(allPosts)
 ---
 
 <MainLayout title="Mi Blog">
@@ -10,9 +11,8 @@ console.log(allPosts[0].url)
     <div class="wrapper prose region flow">
       <h1>Ultimos posts</h1>
       <ul role="list">
-        
         {
-          allPosts.map((post) => (
+          formattedPosts.map((post) => (
             <li>
               <a href={post.url}>{post.frontmatter.title}</a>
             </li>
