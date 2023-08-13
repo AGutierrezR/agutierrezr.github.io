@@ -43,7 +43,8 @@ h4 {
   font-weight: 700;
   line-height: 1.2;
   display: flex;
-  gap: 1ch;
+  gap: 0 1ch;
+  flex-wrap: wrap;
 }
 
 :is(h1, h2, h3):before {
