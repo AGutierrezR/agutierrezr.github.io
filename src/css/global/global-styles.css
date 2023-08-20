@@ -86,7 +86,6 @@ main:focus {
 
 code {
   color: var(--color-primary);
-  font-weight: 700;
   font-size: 1em;
   hyphens: none;
   tab-size: 2;
