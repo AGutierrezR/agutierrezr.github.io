@@ -11,8 +11,11 @@ export default defineConfig({
     plugins: [yaml()],
   },
   markdown: {
-    syntaxHighlight: 'prism',
-    gfm: true,
+    shikiConfig: {
+      theme: 'dracula',
+      langs: [],
+      wrap: false,
+    },
   },
   integrations: [
     tailwind({
