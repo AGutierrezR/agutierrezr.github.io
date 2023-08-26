@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 
-.prose :is(ol, ul) {
+.prose > :is(ol, ul) {
   padding: 0;
 }
 
