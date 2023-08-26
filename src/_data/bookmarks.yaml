@@ -1,0 +1,160 @@
+- name: ICodeThis
+  url: https://icodethis.com/
+  category: practicas
+
+- name: Codewell
+  url: https://www.codewell.cc/
+  category: practicas
+
+- name: Frontend Mentor
+  url: https://www.frontendmentor.io/
+  category: practicas
+
+- name: Design Daily
+  url: https://uidesigndaily.com/
+  category: diseños
+
+- name: Quicktype
+  url: https://quicktype.io/
+  category: herramientas
+
+- name: JWT
+  url: https://jwt.io/
+  category: herramientas
+
+- name: Remove BG
+  url: https://www.remove.bg/
+  category: herramientas
+
+- name: Compress JPEG
+  url: https://compressjpeg.com/es/
+  category: herramientas
+
+- name: PDF Compressor
+  url: https://pdfcompressor.com/es/
+  category: herramientas
+
+- name: JSON Generator
+  url: https://next.json-generator.com/
+  category: herramientas
+
+- name: Bitly
+  url: https://bitly.com/
+  category: herramientas
+
+- name: Cubic Bezier
+  url: https://cubic-bezier.com/
+  category: herramientas
+
+- name: Workflowy
+  url: https://workflowy.com/
+  category: diagramas
+
+- name: Whimsical
+  url: https://whimsical.com/
+  category: diagramas
+
+- name: Mindmeister
+  url: mindmeister
+  category: diagramas
+
+- name: Coolors
+  url: https://coolors.co/
+  category: colores
+
+- name: Color Safe
+  url: http://colorsafe.co/
+  category: colores
+
+- name: ColorSpace
+  url: https://mycolor.space/gradient
+  category: colores
+
+- name: Tints
+  url: https://www.tints.dev/red/EF4444
+  category: colores
+
+- name: Web Gradients
+  url: https://webgradients.com/
+  category: colores
+
+- name: Icons8
+  url: https://icons8.com/
+  category: iconos
+
+- name: Heroicons
+  url: https://heroicons.com/
+  category: iconos
+
+- name: Flaticon
+  url: https://www.flaticon.com/
+  category: iconos
+
+- name: Orion
+  url: https://www.orioniconlibrary.com/all-icons
+  category: iconos
+
+- name: Feather
+  url: https://feathericons.com/
+  category: iconos
+
+- name: Font Awesome
+  url: https://fontawesome.com/
+  category: iconos
+
+- name: Jam Icons
+  url: https://jam-icons.com/
+  category: iconos
+
+- name: Tabler Icons
+  url: https://tablericons.com/
+  category: iconos
+
+- name: Pexels
+  url: https://www.pexels.com/
+  category: imagenes
+
+- name: Freepik
+  url: https://www.freepik.es/
+  category: vectores
+
+- name: 1000logos
+  url: https://1000logos.net/
+  category: vectores
+
+- name: WorldVectorLogo
+  url: https://worldvectorlogo.com/es
+  category: vectores
+
+- name: GraphicBurger
+  url: https://graphicburger.com/
+  category: vectores
+
+- name: Humaaans
+  url: https://www.humaaans.com/
+  category: vectores
+
+- name: Humaaans
+  url: https://www.humaaans.com/
+  category: vectores
+
+- name: Pixeltrue
+  url: https://www.pixeltrue.com/free-ui-kits
+  category: vectores
+
+- name: Mockupworld
+  url: https://www.mockupworld.co/
+  category: vectores
+
+- name: Font Squirrel
+  url: https://www.fontsquirrel.com/
+  category: vectores
+
+- name: Webfont Generator
+  url: https://www.fontsquirrel.com/tools/webfont-generator
+  category: vectores
+
+- name: Google Fonts
+  url: https://fonts.google.com/
+  category: vectores
+
