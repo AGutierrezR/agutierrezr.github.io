@@ -4,6 +4,18 @@ import yml from '../_data/bookmarks.yaml'
 import { groupBy, capitalize } from '../js/utils'
 
 const groupedBookmarks = groupBy((f) => f.category, yml)
+
+const bookmarksOrder = [
+  'herramientas',
+  'vectores',
+  'iconos',
+  'colores',
+  'practicas',
+  'librerias',
+  'diagramas',
+  'diseños',
+  'imagenes',
+]
 ---
 
 <MainLayout
@@ -20,13 +32,15 @@ const groupedBookmarks = groupBy((f) => f.category, yml)
 
       <div class="bookmarks auto-grid">
         {
-          Object.keys(groupedBookmarks).map((key) => (
+          bookmarksOrder.map((key) => (
             <div>
               <h2 class="text-base undecorated-title">{capitalize(key)}</h2>
               <ul role="list">
                 {groupedBookmarks[key].map(({ name, url }) => (
                   <li>
-                    <a href={url}>{name}</a>
+                    <a target="_blank" href={url}>
+                      {name}
+                    </a>
                   </li>
                 ))}
               </ul>
