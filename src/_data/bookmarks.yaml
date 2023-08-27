@@ -94,7 +94,7 @@
   url: https://www.orioniconlibrary.com/all-icons
   category: iconos
 
-- name: Feather
+- name: Feather Icons
   url: https://feathericons.com/
   category: iconos
 
@@ -134,10 +134,6 @@
   url: https://www.humaaans.com/
   category: vectores
 
-- name: Humaaans
-  url: https://www.humaaans.com/
-  category: vectores
-
 - name: Pixeltrue
   url: https://www.pixeltrue.com/free-ui-kits
   category: vectores
@@ -158,3 +154,58 @@
   url: https://fonts.google.com/
   category: vectores
 
+- name: Radash
+  url: https://radash-docs.vercel.app/docs/getting-started
+  category: librerias
+
+- name: Rambda
+  url: https://github.com/selfrefactor/rambda/tree/master
+  category: librerias
+  
+- name: Testing Playground
+  url: https://testing-playground.com/
+  category: herramientas
+  
+- name: Gradient Generator
+  url: https://www.magicpattern.design/tools/gradient-generator
+  category: colores
+  
+- name: Patternpad
+  url: https://patternpad.com/editor.html
+  category: vectores
+  
+- name: BBBBlury
+  url: https://fffuel.co/bbblurry/
+  category: vectores
+  
+- name: Softr SVG-SG
+  url: https://www.softr.io/tools/svg-shape-generator
+  category: vectores
+
+- name: Softr SVG-WG
+  url: https://www.softr.io/tools/svg-wave-generator
+  category: vectores
+
+- name: Clippy
+  url: https://bennettfeely.com/clippy/
+  category: herramientas
+
+- name: Glassmorphoism
+  url: https://hype4.academy/tools/glassmorphism-generator
+  category: herramientas
+
+- name: SplideJS
+  url: https://splidejs.com/
+  category: librerias
+
+- name: CSS Backgrounds
+  url: https://superdesigner.co/tools/css-backgrounds
+  category: herramientas
+
+- name: Soft Shadows
+  url: https://shadows.brumm.af/
+  category: herramientas
+
+- name: Shape Divider
+  url: https://www.shapedivider.app/
+  category: vectores
