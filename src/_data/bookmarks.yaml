@@ -148,7 +148,7 @@
 
 - name: Webfont Generator
   url: https://www.fontsquirrel.com/tools/webfont-generator
-  category: vectores
+  category: herramientas
 
 - name: Google Fonts
   url: https://fonts.google.com/
@@ -209,3 +209,20 @@
 - name: Shape Divider
   url: https://www.shapedivider.app/
   category: vectores
+
+- name: Transform
+  url: https://transform.tools/
+  category: herramientas
+
+- name: SVG Porn
+  url: https://svgporn.com/
+  category: vectores
+
+- name: Micro Digital Tools
+  url: https://mdigi.tools/
+  category: herramientas
+
+- name: Office Ipsum
+  url: http://officeipsum.com/
+  category: herramientas
+
