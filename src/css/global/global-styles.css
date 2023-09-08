@@ -42,13 +42,6 @@ h4 {
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 1.2;
-  display: flex;
-  gap: 0 1ch;
-  flex-wrap: wrap;
-}
-
-:is(h1, h2, h3):before {
-  color: var(--color-mid);
 }
 
 a {
@@ -107,21 +100,4 @@ pre {
 
 pre code {
   color: var(--color-light);
-}
-
-@media (min-width: 54em) {
-  h1::before {
-    content: '#';
-    margin-inline-start: -2.2ch;
-  }
-
-  h2::before {
-    content: '##';
-    margin-inline-start: -3.2ch;
-  }
-
-  h3::before {
-    content: '###';
-    margin-inline-start: -4.5ch;
-  }
 }
