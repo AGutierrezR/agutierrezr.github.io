@@ -1,0 +1,24 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro'
+import { formatBlogPosts } from '../../js/utils'
+
+const allPosts = await Astro.glob('./**/*.md')
+const formattedPosts = formatBlogPosts(allPosts)
+---
+
+<MainLayout title="Mi Blog">
+  <main tabindex="-1" id="main-content">
+    <div class="wrapper prose region flow">
+      <h1>Tips</h1>
+      <ul role="list">
+        {
+          formattedPosts.map((post) => (
+            <li>
+              <a href={post.url}>{post.frontmatter.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </main>
+</MainLayout>
