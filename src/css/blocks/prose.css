@@ -1,6 +1,6 @@
 .prose {
-  --flow-space: var(--space-m-l);
-  line-height: 1.8;
+  --flow-space: var(--space-m);
+  line-height: 1.6;
   max-width: 50rem;
 }
 
@@ -20,16 +20,16 @@
   font-weight: bold;
 }
 
-.prose > :is(ol, ul) {
-  padding: 0;
-}
-
 .prose ol li::marker {
   color: var(--color-mid);
 }
 
 .prose li + li {
   margin-top: var(--space-s);
+}
+
+.prose li :is(ul, ol) {
+  margin-top: 0.75rem;
 }
 
 /* More space after and around certain elements */
