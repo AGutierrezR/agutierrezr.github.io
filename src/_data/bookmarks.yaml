@@ -161,23 +161,23 @@
 - name: Rambda
   url: https://github.com/selfrefactor/rambda/tree/master
   category: librerias
-  
+
 - name: Testing Playground
   url: https://testing-playground.com/
   category: herramientas
-  
+
 - name: Gradient Generator
   url: https://www.magicpattern.design/tools/gradient-generator
   category: colores
-  
+
 - name: Patternpad
   url: https://patternpad.com/editor.html
   category: vectores
-  
+
 - name: BBBBlury
   url: https://fffuel.co/bbblurry/
   category: vectores
-  
+
 - name: Softr SVG-SG
   url: https://www.softr.io/tools/svg-shape-generator
   category: vectores
@@ -229,3 +229,15 @@
 - name: JSON Data AI
   url: https://www.jsondataai.com/
   category: herramientas
+
+- name: CodyHouse
+  url: https://codyhouse.co/
+  category: practicas
+
+- name: Codrops
+  url: https://tympanus.net/codrops/
+  category: practicas
+
+- name: TablerIcons.io
+  url: https://tabler-icons.io/
+  category: iconos
