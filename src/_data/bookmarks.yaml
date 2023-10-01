@@ -257,3 +257,11 @@
 - name: Design Patterns
   url: https://refactoring.guru/es/design-patterns
   category: referencias
+
+- name: BlingJS
+  url: https://gist.github.com/paulirish/12fb951a8b893a454b32
+  category: librerias
+
+- name: BlingBlingJS
+  url: https://github.com/argyleink/blingblingjs/tree/master
+  category: librerias
