@@ -245,3 +245,15 @@
 - name: Reduceimages
   url: https://www.reduceimages.com/
   category: herramientas
+
+- name: SOPs
+  url: https://important-maiasaura-7ad.notion.site/ca65af340a524e3e9b2479355286a8ab?v=8e62bcfcc0fc46bf8400065f26902f57
+  category: referencias
+
+- name: Webdev Patterns
+  url: https://web.dev/patterns/
+  category: referencias
+
+- name: Design Patterns
+  url: https://refactoring.guru/es/design-patterns
+  category: referencias
