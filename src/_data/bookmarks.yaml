@@ -24,11 +24,11 @@
 
 - name: Remove BG
   url: https://www.remove.bg/
-  category: herramientas
+  category: imagenes
 
 - name: Compress JPEG
   url: https://compressjpeg.com/es/
-  category: herramientas
+  category: imagenes
 
 - name: PDF Compressor
   url: https://pdfcompressor.com/es/
@@ -244,7 +244,7 @@
 
 - name: Reduceimages
   url: https://www.reduceimages.com/
-  category: herramientas
+  category: imagenes
 
 - name: SOPs
   url: https://important-maiasaura-7ad.notion.site/ca65af340a524e3e9b2479355286a8ab?v=8e62bcfcc0fc46bf8400065f26902f57
@@ -265,3 +265,7 @@
 - name: BlingBlingJS
   url: https://github.com/argyleink/blingblingjs/tree/master
   category: librerias
+
+- name: UI Colors App
+  url: https://uicolors.app/create
+  category: colores
