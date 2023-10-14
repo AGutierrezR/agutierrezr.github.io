@@ -144,15 +144,15 @@
 
 - name: Font Squirrel
   url: https://www.fontsquirrel.com/
-  category: vectores
+  category: fuentes
 
 - name: Webfont Generator
   url: https://www.fontsquirrel.com/tools/webfont-generator
-  category: herramientas
+  category: fuentes
 
 - name: Google Fonts
   url: https://fonts.google.com/
-  category: vectores
+  category: fuentes
 
 - name: Radash
   url: https://radash-docs.vercel.app/docs/getting-started
@@ -192,7 +192,7 @@
 
 - name: Glassmorphoism
   url: https://hype4.academy/tools/glassmorphism-generator
-  category: herramientas
+  category: css tools
 
 - name: SplideJS
   url: https://splidejs.com/
@@ -200,11 +200,11 @@
 
 - name: CSS Backgrounds
   url: https://superdesigner.co/tools/css-backgrounds
-  category: herramientas
+  category: css tools
 
 - name: Soft Shadows
   url: https://shadows.brumm.af/
-  category: herramientas
+  category: css tools
 
 - name: Shape Divider
   url: https://www.shapedivider.app/
