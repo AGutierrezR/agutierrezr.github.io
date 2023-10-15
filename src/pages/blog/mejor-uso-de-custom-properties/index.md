@@ -15,7 +15,7 @@ Las custom properties ayudan a mantener nuestro CSS más DRY en esos momentos en
 
 Usaré el ejemplo expuesto en este video [Using CSS custom properties like this is a waste](https://www.youtube.com/watch?v=_2LwjfYc1x8) y basándome en el componente que expone. La idea final es obtener este resultado:
 
-![](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F52bdafaa-0571-4203-ad14-f40dcd20cb67%2Fada4e24b-336c-44c7-9484-3c29ff938709%2FUntitled.png?table=block&id=ae0647e5-4b3a-4963-85e6-c706e01410b9&spaceId=52bdafaa-0571-4203-ad14-f40dcd20cb67&width=2000&userId=b64dc061-7881-47e4-8dc6-2bcf32d44cc4&cache=v2)
+![](./assets/final.png)
 
 ¡Comencemos! Tenemos este componente Plan:
 
@@ -73,7 +73,7 @@ Creamos los estilos base de este en CSS
 
 Esto nos da como resultado algo como esto:
 
-![](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F52bdafaa-0571-4203-ad14-f40dcd20cb67%2F314d0bb6-34c6-4691-9571-a08f3dd81434%2FUntitled.png?table=block&id=4d739f9f-da38-44e3-b436-40722417ac17&spaceId=52bdafaa-0571-4203-ad14-f40dcd20cb67&width=2000&userId=b64dc061-7881-47e4-8dc6-2bcf32d44cc4&cache=v2)
+![](./assets/base.png)
 
 Puedes ver esta base en Codepen:
 
@@ -130,7 +130,7 @@ Ahora si creamos variantes de estos tres componentes, lo haríamos así:
 
 Como podemos ver, hemos creado varios estilos usando el namespace del modificador que necesitamos, esto ha agregado 44 líneas de código repetido y este resultado:
 
-![](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F52bdafaa-0571-4203-ad14-f40dcd20cb67%2Fada4e24b-336c-44c7-9484-3c29ff938709%2FUntitled.png?table=block&id=ae0647e5-4b3a-4963-85e6-c706e01410b9&spaceId=52bdafaa-0571-4203-ad14-f40dcd20cb67&width=2000&userId=b64dc061-7881-47e4-8dc6-2bcf32d44cc4&cache=v2)
+![](./assets/final.png)
 
 Para visualizar el código:
 
@@ -188,7 +188,7 @@ Ahora vamos a colocar las variables "privadas" en las secciones del componente q
 
 Esto no cambiará nada a nivel base, todo seguirá estando igual.
 
-![](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F52bdafaa-0571-4203-ad14-f40dcd20cb67%2F314d0bb6-34c6-4691-9571-a08f3dd81434%2FUntitled.png?table=block&id=4d739f9f-da38-44e3-b436-40722417ac17&spaceId=52bdafaa-0571-4203-ad14-f40dcd20cb67&width=2000&userId=b64dc061-7881-47e4-8dc6-2bcf32d44cc4&cache=v2)
+![](./assets/base.png)
 
 Para verlo en Codepen:
 
@@ -218,7 +218,7 @@ Ahora veamos el código de las variantes
 
 Y listo.
 
-![](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F52bdafaa-0571-4203-ad14-f40dcd20cb67%2Fada4e24b-336c-44c7-9484-3c29ff938709%2FUntitled.png?table=block&id=ae0647e5-4b3a-4963-85e6-c706e01410b9&spaceId=52bdafaa-0571-4203-ad14-f40dcd20cb67&width=2000&userId=b64dc061-7881-47e4-8dc6-2bcf32d44cc4&cache=v2)
+![](./assets/final.png)
 
 En Codepen:
 

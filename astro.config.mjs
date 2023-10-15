@@ -17,6 +17,9 @@ export default defineConfig({
       wrap: false,
     },
   },
+  experimental: {
+    assets: true
+  },
   integrations: [
     tailwind({
       config: {
