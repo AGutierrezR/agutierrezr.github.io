@@ -273,3 +273,11 @@
 - name: Shoelace
   url: https://shoelace.style/
   category: frameworks
+
+- name: LitElement
+  url: https://lit.dev/
+  category: frameworks
+
+- name: Globster
+  url: https://globster.xyz/
+  category: herramientas
