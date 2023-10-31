@@ -296,16 +296,20 @@
 
 - name: Accessibility Support
   url: https://a11ysupport.io/
-  category: referencias
+  category: accesibilidad
 
 - name: Accessibility Matters
   url: https://www.a11ymatters.com/
-  category: referencias
+  category: accesibilidad
 
 - name: VoiceOver Shortcuts
   url: https://drive.google.com/file/d/13ulNM5F9luuXXQaVKWjA5ollson7iia9/view?usp=sharing
-  category: referencias
+  category: accesibilidad
 
 - name: Defensive CSS
   url: https://defensivecss.dev/
   category: referencias
+
+- name: Magenta a11y
+  url: https://www.magentaa11y.com/
+  category: accesibilidad
