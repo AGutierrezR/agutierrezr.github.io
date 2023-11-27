@@ -313,3 +313,11 @@
 - name: Magenta a11y
   url: https://www.magentaa11y.com/
   category: accesibilidad
+
+- name: eBay MIND Patterns
+  url: https://ebay.gitbook.io/mindpatterns/
+  category: accesibilidad
+
+- name: Open Props
+  url: https://open-props.style/
+  category: frameworks
