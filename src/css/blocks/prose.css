@@ -46,7 +46,7 @@
 
 /* More space after and around certain elements */
 .prose :is(pre, pre + *, figure, figure + *, h2, h3, h4) {
-  --flow-space: var(--space-l-xl);
+  --flow-space: var(--space-l);
 }
 
 /* Less space for items that follow headings */
@@ -61,7 +61,18 @@
 /* Break out code */
 .prose :is(pre) {
   margin-left: 50%;
-  max-width: 60rem;
+  max-width: 52rem;
   transform: translateX(-50%);
-  width: 100vw
+  width: 100vw;
+  border-radius: .25rem;
+}
+
+.prose :not(pre) > code {
+  background-color: rgb(241, 245, 249);
+  border-color: rgb(226, 232, 240);
+  border-radius: .25rem;
+  border-style: solid;
+  border-width: 1px;
+  font-size: var(--size-step-neg-1);
+  padding: .20rem .25rem;
 }

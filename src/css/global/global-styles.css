@@ -91,7 +91,7 @@ code {
 }
 
 pre {
-  padding: var(--space-xs);
+  padding: var(--space-xs) var(--space-s);
   background: var(--color-dark);
 
   overflow-x: auto;
@@ -99,5 +99,6 @@ pre {
 }
 
 pre code {
+  font-size: var(--size-step-neg-1);
   color: var(--color-light);
 }
