@@ -75,9 +75,7 @@ Esto nos da como resultado algo como esto:
 
 ![](./assets/base.png)
 
-Puedes ver esta base en Codepen:
-
-https://codepen.io/AgutierrezR/pen/wvRbWwy
+Puedes ver esta base en [Codepen](https://codepen.io/AgutierrezR/pen/wvRbWwy):
 
 Ahora si creamos variantes de estos tres componentes, lo haríamos así:
 
@@ -132,9 +130,7 @@ Como podemos ver, hemos creado varios estilos usando el namespace del modificado
 
 ![](./assets/final.png)
 
-Para visualizar el código:
-
-https://codepen.io/AgutierrezR/pen/LYMoZLx
+Para visualizar el código pulsa [aquí](https://codepen.io/AgutierrezR/pen/LYMoZLx):
 
 ## Ahora si usemos custom properties
 
@@ -190,9 +186,7 @@ Esto no cambiará nada a nivel base, todo seguirá estando igual.
 
 ![](./assets/base.png)
 
-Para verlo en Codepen:
-
-https://codepen.io/AgutierrezR/pen/VwqOjyz?editors=0100
+Para verlo en Codepen [aquí](https://codepen.io/AgutierrezR/pen/VwqOjyz?editors=0100):
 
 Ahora veamos el código de las variantes
 
@@ -220,8 +214,6 @@ Y listo.
 
 ![](./assets/final.png)
 
-En Codepen:
-
-https://codepen.io/AgutierrezR/pen/eYbazMN
+En [Codepen](https://codepen.io/AgutierrezR/pen/eYbazMN):
 
 Con esto tenemos un código más ligero y más fácil de entender. No tenemos que sobreescribir propiedades y las modificaciones las estamos haciendo desde el namespace sin tener que referenciar a los elementos internos directamente.
