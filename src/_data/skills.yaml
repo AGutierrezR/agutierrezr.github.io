@@ -9,12 +9,12 @@
 
 - title: 'Frameworks'
   list:
+    - LitElement
     - React / Angular
     - Jest / Jasmine
     - Astro
     - AlpineJS
     - Tailwind
-    - Jekyll
 
 - title: 'Herramientas'
   list:
