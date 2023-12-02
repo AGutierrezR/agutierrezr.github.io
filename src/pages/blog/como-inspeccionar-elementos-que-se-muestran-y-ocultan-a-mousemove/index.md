@@ -4,7 +4,7 @@ title: Como inspeccionar elementos que se muestran y ocultan a mousemove
 date: 2023-08-27
 description: Inspecciona elementos que se muestran y ocultan con Javascript
 draft: false
-tags: devtools
+tags: [devtools]
 ---
 
 Hay elementos que se muestran y esconden en mouse move (por medios de javascript), tales como tooltips o flyouts como los de [Stripe](https://stripe.com/es) y no solo basta con agregar una clase o usar un simple hover para hacer que se muestren.

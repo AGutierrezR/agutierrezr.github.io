@@ -4,7 +4,7 @@ title: Los query selectors son aplicados a todo el document a menos que se use :
 date: 2023-12-01
 description: 
 draft: false
-tags: javascript
+tags: [javascript]
 ---
 
 Al llamar a la función `querySelector()` o `querySelectorAll()` en un elemento, es fundamental saber que estas consultas se aplican inicialmente en todo el documento. Sin embargo, la búsqueda de elementos se limita al ámbito del elemento desde el cual se invoca la función.
@@ -27,9 +27,9 @@ const content = main.querySelector(".wrapper .content");
 // --> <div class="main"></div>
 ```
 
-Ese `querySelector()` ejecutado desde el nodo `<div class="main">...</div>` va a devolver el nodo `<div class="content"></div>` a pesar que en `<div class="main"></div>` no esta el nodo `<div class="wrapper">...</div>`.
+Ese `querySelector()` ejecutado desde el nodo `<div class="main">...</div>` va a devolver el nodo `<div class="content"></div>` a pesar que en `<div class="main"></div>` no está el nodo `<div class="wrapper">...</div>`.
 
-Esto indica que el query va a nivel de document pero luego "verifica" si nodo esta dentro nodo que realiza la query, por lo que este query retornaria `null`
+Esto indica que el query va a nivel de document pero luego "verifica" si el nodo está dentro nodo que realiza la query, por lo que este query retornaria `null`
 
 ```js
 const main = document.querySelector(".main");

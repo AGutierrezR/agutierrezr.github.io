@@ -4,7 +4,7 @@ title: Usar Angular Directive para extender componentes que te pertenecen
 date: 2023-08-11
 description: Usando Directivas de Angular para Mejorar la Extensión de Componentes de Terceros
 draft: false
-tags: angular, directive, typescript
+tags: [angular, directive, typescript]
 ---
 
 Las directivas en Angular son una herramienta que se usa muy poco y que no aprovechamos al máximo. Aunque las directivas estructurales como `*ngIf` y `*ngFor` son comunes para la mayoría, pero ¿qué hay de crear tus propias directivas?.

@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogLayout.astro"
 title: CSS Overview
 date: 2023-09-11
 draft: false
-tags: devtools
+tags: [devtools]
 ---
 
 ## Introducción

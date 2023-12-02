@@ -4,10 +4,10 @@ title: Los parámetros de funciones pueden tener un valor por defecto basado en 
 date: 2023-12-02
 description: 
 draft: false
-tags: javascript
+tags: [javascript]
 ---
 
-Una función con parámetros puede tener valores por defectos que seran usados cuando el consumidor no proporcione un valor para dicho parámetro (ya sea omitiendolo o pasandole un `undefined`). El valor por defecto no tiene que se un valor estatico. Se pueden ejecutar expresiones y usar valores previos de la función.
+Una función con parámetros puede tener valores por defectos que serán usados cuando el consumidor no proporcione un valor para dicho parámetro (ya sea omitiendolo o pasandole un `undefined`). El valor por defecto no tiene que ser un valor estatico. Se pueden ejecutar expresiones y usar valores previos de la función.
 
 ```js
 function someFunction(

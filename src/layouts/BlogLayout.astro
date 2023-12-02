@@ -3,16 +3,21 @@ import MainLayout from './MainLayout.astro'
 import { formatDate } from '../js/utils'
 
 const { frontmatter } = Astro.props
-const { title, description, date } = frontmatter
+const { title, description, date, tags } = frontmatter
 ---
 
 <MainLayout title={title} description={description}>
   <main tabindex="-1" id="main-content" class={frontmatter.class}>
     <div class="wrapper prose region flow">
       <h1>{title}</h1>
-      <time datetime={date}>{formatDate(date)}</time>
+      <div class="cluster">
+        <time class="not-italic" datetime={date}>{formatDate(date)}</time>
+        <div style="--gutter: var(--space-xs)" class="cluster text-step-0">
+          {tags.map((t) => <span>#{t}</span>)}
+        </div>
+      </div>
       <slot />
-      <hr>
+      <hr />
     </div>
   </main>
 </MainLayout>

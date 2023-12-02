@@ -4,7 +4,7 @@ title: ¿Por que usar Ramda?
 date: 2023-08-20
 description: 
 draft: false
-tags: javascript, functional
+tags: [javascript, functional]
 ---
 
 Para los que no están familiarizados con Function Programming, Ramda parece que no tiene mucho que ofrecer. La mayoría de las capacidades de este ya están cubiertas por librerías como **LoDash** y **Underscore**.

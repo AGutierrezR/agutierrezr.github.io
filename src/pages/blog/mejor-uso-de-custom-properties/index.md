@@ -4,7 +4,7 @@ title: Mejor uso de CSS Custom Properties
 date: 2023-10-14
 description: 
 draft: false
-tags: css, tips
+tags: [css, tips]
 ---
 
 Las Custom Properties de CSS aparecieron en el 2012, y no fue hasta el 2017 que tuvieron soporte en los navegadores, pero en su momento no les encontré tantos casos de uso para poder sustituir algo como las variables de Sass o para aplicarlas en el CSS de un proyecto pequeño. Pero no fue hasta 2020 que empecé a darles uso (aunque sea primitivo) para ir familiarizándome con ellas, y la verdad, ahora veo muchos casos de uso.

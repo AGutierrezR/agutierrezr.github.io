@@ -4,7 +4,7 @@ title: 5 tips para configurar el package.json en NPM
 date: 2023-08-14
 description: Exploraremos cinco consejos de configuración avanzados que pueden potenciar nuestro flujo de trabajo de desarrollo frontend.
 draft: false
-tags: npm, tips
+tags: [npm, tips]
 ---
 
 Node.js, npm y package.json son herramientas indispensables en el arsenal de un desarrollador frontend.

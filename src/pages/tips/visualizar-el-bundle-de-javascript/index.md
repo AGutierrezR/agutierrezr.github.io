@@ -3,7 +3,7 @@ layout: "../../../layouts/BlogLayout.astro"
 title: Visualiza el bundle de JavaScript
 date: 2023-09-07
 draft: false
-tags: devtools
+tags: [devtools]
 ---
 
 ## Introducción
