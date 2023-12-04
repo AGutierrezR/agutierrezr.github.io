@@ -40,7 +40,7 @@ const bookmarksOrder = [
           bookmarksOrder.map((key) => (
             <div>
               <h2 class="text-base undecorated-title">{capitalize(key)}</h2>
-              <ul role="list">
+              <ul class="no-list flow flow-zero" role="list">
                 {groupedBookmarks[key].map(({ name, url }) => (
                   <li>
                     <a target="_blank" href={url}>

@@ -22,6 +22,7 @@
 @import './compositions/grid.css';
 @import './compositions/repel.css';
 
+@import './utilities/list.css';
 @import './utilities/flow.css';
 @import './utilities/region.css';
 @import './utilities/wrapper.css';
