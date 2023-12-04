@@ -12,16 +12,8 @@ const currentPath = Astro.url.pathname
       <Icon name="logomark" height="1em" width="1em" />
     </a>
 
-    <nav aria-label="primary">
-      <ul role="list" class="cluster">
-        {
-          navItems.map((link) => (
-            <li>
-              <Link href={link.path}>{link.name}</Link>
-            </li>
-          ))
-        }
-      </ul>
+    <nav aria-label="primary" class="cluster">
+      {navItems.map((link) => <Link href={link.path}>{link.name}</Link>)}
     </nav>
   </div>
 </header>

@@ -3,7 +3,7 @@
   padding-block: var(--space-m);
 }
 
-.site-header nav ul {
+.site-header nav a {
   margin: 0;
   font-size: var(--size-step-neg-1);
 }
