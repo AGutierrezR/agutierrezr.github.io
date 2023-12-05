@@ -11,3 +11,6 @@ Info about this implementation: https://piccalil.li/quick-tip/flow-utility/
   --flow-space: var(--space-zero);
 }
 
+.flow-space-2xs {
+  --flow-space: var(--space-2xs);
+}

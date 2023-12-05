@@ -1,5 +1,5 @@
 .content {
-  --flow-space: var(--space-m-l);
+  --flow-space: var(--space-s);
   line-height: 1.8;
   max-width: 50rem;
 }
@@ -7,4 +7,8 @@
 /* Less space for items that follow headings */
 .content h1 + * {
   --flow-space: 0.5em;
+}
+
+.content :is(h2, h3, h4) {
+  --flow-space: var(--space-l);
 }
