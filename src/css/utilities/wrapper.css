@@ -11,3 +11,7 @@
   padding-right: var(--gutter, 1rem);
   position: relative;
 }
+
+.wrapper[data-size='narrow'] {
+  max-width: 50rem;
+}
