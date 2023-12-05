@@ -1,0 +1,52 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+import { formatBlogPosts, groupedPostsByTags } from '../js/utils'
+
+const allPosts = await Astro.glob('./blog/**/*.md')
+const formattedPosts = formatBlogPosts(allPosts)
+const groupedByTags = groupedPostsByTags(formattedPosts)
+const tags = Object.keys(groupedByTags).sort()
+
+const TITLES = {
+  a11y: 'Accesibilidad',
+  angular: 'Angular',
+  css: 'CSS',
+  javascript: 'Javascript',
+  npm: 'NPM',
+  devtools: 'DevTools',
+}
+---
+
+<MainLayout title="Mis tags">
+  <main tabindex="-1" id="main-content">
+    <div class="wrapper region" data-size="narrow">
+      <h1>Tags</h1>
+      <div class="mt-m flow">
+        {
+          tags.map((key) => {
+            if (key in TITLES) {
+              return (
+                <>
+                  <h2>{TITLES[key]}</h2>
+                  <ul
+                    class="no-list flow flow-space-2xs mt-xs"
+                    aria-label={`Articulos con el tag ${TITLES[key]}`}
+                    role="list"
+                  >
+                    {groupedByTags[key].map((post) => (
+                      <li>
+                        <a class="text-step-neg-1" href={post.url}>
+                          {post.frontmatter.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )
+            }
+          })
+        }
+      </div>
+    </div>
+  </main>
+</MainLayout>

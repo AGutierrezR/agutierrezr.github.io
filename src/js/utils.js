@@ -57,3 +57,14 @@ export function groupBy(groupFn, list) {
   return result
 }
 
+export function groupedPostsByTags(posts) {
+  return posts.reduce((result, item) => {
+    item.frontmatter.tags.forEach((tag) => {
+      if (!result[tag]) {
+        result[tag] = []
+      }
+      result[tag].push(item)
+    })
+    return result
+  }, {})
+} 
