@@ -44,7 +44,7 @@
 
 - name: Cubic Bezier
   url: https://cubic-bezier.com/
-  category: herramientas
+  category: css tools
 
 - name: Workflowy
   url: https://workflowy.com/
@@ -321,3 +321,7 @@
 - name: Open Props
   url: https://open-props.style/
   category: frameworks
+
+- name: TS Diagram
+  url: https://tsdiagram.com/
+  category: herramientas
