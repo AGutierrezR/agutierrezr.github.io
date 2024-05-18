@@ -325,3 +325,7 @@
 - name: TS Diagram
   url: https://tsdiagram.com/
   category: herramientas
+
+- name: Lorem Picsum
+  url: https://picsum.photos/
+  category: imagenes
