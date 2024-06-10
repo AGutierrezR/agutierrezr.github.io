@@ -329,3 +329,7 @@
 - name: Lorem Picsum
   url: https://picsum.photos/
   category: imagenes
+
+- name: DevTools Tips
+  url: https://devtoolstips.org/
+  category: referencias
