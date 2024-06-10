@@ -333,3 +333,7 @@
 - name: DevTools Tips
   url: https://devtoolstips.org/
   category: referencias
+
+- name: Atheros AI UI
+  url: https://github.com/atherosai/ui
+  category: librerias
