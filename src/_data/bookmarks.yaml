@@ -337,3 +337,11 @@
 - name: Atheros AI UI
   url: https://github.com/atherosai/ui
   category: librerias
+
+- name: Pines UI
+  url: https://devdojo.com/pines
+  category: librerias
+
+- name: Explain Shell
+  url: https://explainshell.com/
+  category: herramientas
