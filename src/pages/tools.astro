@@ -1,0 +1,39 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+import yml from '../_data/tools.yml'
+import { groupBy, capitalize } from '../js/utils'
+
+const groupedBookmarks = groupBy((f) => f.category, yml)
+const bookmarksOrder = ['navegadores', 'desarrollo', 'ai']
+---
+
+<MainLayout
+  title="Mis Herramientas - Andres Gutierrez"
+  description="Estas son las herramientas que uso para ser mas productivo"
+>
+  <main tabindex="-1" id="main-content">
+    <div class="wrapper content region flow">
+      <h1>Herramientas</h1>
+      <p>Estas son las herramientas que uso para ser mas productivo:</p>
+
+      <div class="bookmarks auto-grid">
+        {
+          bookmarksOrder.map((key) => (
+            <div>
+              <h2 class="text-base undecorated-title">{capitalize(key)}</h2>
+              <ul class="no-list flow flow-zero" role="list">
+                {groupedBookmarks[key].map(({ name, url }) => (
+                  <li>
+                    <a target="_blank" href={url}>
+                      {name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+</MainLayout>

@@ -1,0 +1,27 @@
+- name: Chrome
+  url: https://www.google.com/chrome
+  category: navegadores
+
+- name: LT Browser
+  url: https://www.lambdatest.com/lt-browser 
+  category: navegadores
+
+- name: ChatGTP
+  url: https://chatgpt.com/ 
+  category: ai
+
+- name: VSCode
+  url: https://code.visualstudio.com/
+  category: desarrollo
+  
+- name: DBeaver
+  url: https://dbeaver.io/
+  category: desarrollo
+
+- name: Docker
+  url: https://www.docker.com/
+  category: desarrollo
+
+- name: Readme.so
+  url: https://readme.so
+  category: desarrollo
