@@ -346,19 +346,26 @@
   url: https://explainshell.com/
   category: herramientas
 
-- name:  Drag and Drop Formkit
+- name: Drag and Drop Formkit
   url: https://drag-and-drop.formkit.com/
   category: librerias
- 
+
 - name: Dev Challenges
-  url: https://devchallenges.io/  
+  url: https://devchallenges.io/
   category: practicas
 
 - name: Explain Shell
-  url: https://explainshell.com/ 
+  url: https://explainshell.com/
   category: herramientas
 
 - name: Cheat.sh
   url: https://cheat.sh/
   category: herramientas
 
+- name: BlinkShot
+  url: https://www.blinkshot.io/
+  category: imagenes
+
+- name: You might not need jQuery
+  url: https://youmightnotneedjquery.com/
+  category: referencias
