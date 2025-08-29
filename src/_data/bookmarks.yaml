@@ -78,6 +78,14 @@
   url: https://webgradients.com/
   category: colores
 
+- name: SVG Repo
+  url: https://www.svgrepo.com/
+  category: iconos
+
+- name: Tabler Icons
+  url: https://tablericons.com/
+  category: iconos
+
 - name: Icons8
   url: https://icons8.com/
   category: iconos
@@ -104,10 +112,6 @@
 
 - name: Jam Icons
   url: https://jam-icons.com/
-  category: iconos
-
-- name: Tabler Icons
-  url: https://tablericons.com/
   category: iconos
 
 - name: Pexels
@@ -369,3 +373,4 @@
 - name: You might not need jQuery
   url: https://youmightnotneedjquery.com/
   category: referencias
+
