@@ -158,6 +158,10 @@
   url: https://fonts.google.com/
   category: fuentes
 
+- name: FontPair
+  url: https://www.fontpair.co/
+  category: fuentes
+
 - name: Radash
   url: https://radash-docs.vercel.app/docs/getting-started
   category: librerias
