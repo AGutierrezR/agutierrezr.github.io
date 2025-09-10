@@ -86,6 +86,14 @@
   url: https://tablericons.com/
   category: iconos
 
+- name: svgl
+  url: https://svgl.app/
+  category: iconos
+
+- name: Tabler Avatars
+  url: https://tabler.io/avatars
+  category: iconos
+
 - name: Icons8
   url: https://icons8.com/
   category: iconos
@@ -372,6 +380,10 @@
 
 - name: BlinkShot
   url: https://www.blinkshot.io/
+  category: imagenes
+
+- name: Pravatar
+  url: https://pravatar.cc/
   category: imagenes
 
 - name: You might not need jQuery
