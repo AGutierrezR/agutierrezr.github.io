@@ -1,6 +1,6 @@
 - title: 'Lenguajes'
   list:
-    - JavaScript (ES6)
+    - JavaScript (ES6) 
     - TypeScript
     - HTML
     - CSS/Sass
@@ -18,14 +18,15 @@
 
 - title: 'Herramientas'
   list:
+    - Vim / Tmux
+    - Jujutsu VCS
     - Git & Github
     - Webpack / Vite
-    - Gulp & Grunt
     - Dev Tools
-    - Postman
+    - Postman / Bruno
+    - Bash scripting
 
 - title: 'Diseño'
   list:
     - Figma
     - Adobe XD
-    - Illustrator
