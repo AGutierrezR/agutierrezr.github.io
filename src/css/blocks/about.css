@@ -7,9 +7,9 @@
 
 @media screen(sm) {
   .about .skills {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
+    --grid-placement: 4;
+    --grid-min-item-size: auto;
+    --grid-max-item-size: auto;
+    /* grid-template-columns: repeat(4, auto); */
   }
 }

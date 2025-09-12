@@ -19,8 +19,7 @@
 - title: 'Herramientas'
   list:
     - Vim / Tmux
-    - Jujutsu VCS
-    - Git & Github
+    - Git & Jujutsu
     - Webpack / Vite
     - Dev Tools
     - Postman / Bruno
