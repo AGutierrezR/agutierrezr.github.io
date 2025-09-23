@@ -402,3 +402,11 @@
   url: https://fig.io/manual
   category: referencias
 
+- name: Callbag Basics
+  url: https://github.com/staltz/callbag-basics
+  category: librerias
+
+- name: Tape (testing)
+  url: https://github.com/tape-testing/tape
+  category: librerias
+
