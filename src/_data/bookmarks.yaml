@@ -406,3 +406,7 @@
   url: https://github.com/tape-testing/tape
   category: librerias
 
+- name: Web Install
+  url: https://webinstall.dev/
+  category: herramientas
+
