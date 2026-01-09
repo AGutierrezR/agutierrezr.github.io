@@ -9,6 +9,10 @@
   width: 100%;
 }
 
+.prose thead {
+  text-align: left;
+}
+
 .prose time {
   font-size: var(--size-step-0);
 }
