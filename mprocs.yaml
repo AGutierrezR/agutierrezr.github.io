@@ -1,0 +1,6 @@
+procs:
+  server:
+    cmd: ["npm", "run", "dev"]
+  build:
+    shell: "npm run build:watch"
+  tests: "npm run test:watch"
