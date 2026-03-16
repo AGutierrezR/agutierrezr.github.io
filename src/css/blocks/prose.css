@@ -4,8 +4,8 @@
   max-width: 50rem;
 }
 
-.prose > img,
-.prose > table {
+.prose>img,
+.prose>table {
   width: 100%;
 }
 
@@ -32,7 +32,7 @@
 }
 
 /* Less space for items that follow headings */
-.prose h1 + * {
+.prose h1+* {
   --flow-space: 0.5em;
 }
 
@@ -49,7 +49,7 @@
   border-radius: .25rem;
 }
 
-.prose :not(pre) > code {
+.prose :not(pre)>code {
   background-color: rgb(241, 245, 249);
   border-color: rgb(226, 232, 240);
   border-radius: .25rem;
@@ -57,4 +57,19 @@
   border-width: 1px;
   font-size: var(--size-step-neg-1);
   padding: .20rem .25rem;
+}
+
+.prose .highlight {
+  --aside-border-width: 3px;
+  position: relative;
+  margin-top: 32px;
+  margin-inline: calc(24px * -1);
+  margin-bottom: 32px;
+  padding-block: 24px;
+  padding-inline: calc(var(--gutter) - var(--aside-border-width));
+  border-left: var(--aside-border-width) solid var(--color-primary);
+  border-radius: 0 4px 4px 0;
+  background-color: rgb(232, 241, 252);
+  transition: background-color var(--color-swap-duration);
+  --base-icon-color: var(--color-gray-800);
 }

@@ -51,8 +51,11 @@ Además, puedes iniciar, reiniciar y detener procesos usando los keybinds integr
 Si quieres agregar un proceso manualmente, puedes hacerlo presionando la tecla `a` y escribiendo el comando.
 
 
+<aside class="highlight">
+
 💡 **Nota:**
 Si quieres keymaps, puedes acceder [aquí](https://github.com/pvolok/mprocs?tab=readme-ov-file#default-keymap)
+</aside>
 
 ---
 
@@ -70,8 +73,12 @@ Esto abrirá una interfaz en la terminal con **dos paneles**, uno para cada proc
 
 Cada panel muestra su output en tiempo real.
 
+<aside class="highlight">
+
 💡 **Tip:**
 Si estás en un proyecto con un `package.json`, puedes usar:
+
+</aside>
 
 ```bash
 mprocs --npm
