@@ -88,6 +88,8 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Alternativa simplificada a `man` con ejemplos prácticos.
 * **[starship](https://github.com/starship/starship)**:
   Prompt rápido, minimalista y altamente configurable para cualquier shell.
+* **[q](https://github.com/cal2195/q)**:
+  Macros al estilo Vim para shell de bash o zsh.
 
 ---
 
