@@ -6,7 +6,11 @@ const allPosts = await Astro.glob('./**/*.md')
 const formattedPosts = formatBlogPosts(allPosts)
 ---
 
-<MainLayout title="Mi Blog">
+<MainLayout 
+  title="Mi Blog - Andres Gutierrez"
+  description="Explora artículos sobre desarrollo web, programación, y tecnología. Comparte conocimientos sobre frontend, backend, y mejores prácticas de código."
+  keywords="blog, desarrollo web, programación, tecnología, tutoriales, frontend, backend, código, JavaScript, React, CSS, HTML"
+>
   <main tabindex="-1" id="main-content">
     <div class="wrapper region flow" data-size="narrow">
       <h1>Ultimos posts</h1>
