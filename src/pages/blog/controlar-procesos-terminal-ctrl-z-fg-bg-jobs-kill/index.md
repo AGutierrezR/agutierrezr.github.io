@@ -40,7 +40,7 @@ Vamos a ver cómo funcionan.
 
 ---
 
-# Pausar un proceso en la terminal con Ctrl+Z
+## Pausar un proceso en la terminal con Ctrl+Z
 
 Supongamos que estás ejecutando algo en la terminal:
 
@@ -70,7 +70,7 @@ El proceso sigue existiendo, pero está **pausado y no ejecutándose**.
 
 ---
 
-# Ver procesos suspendidos con el comando jobs
+## Ver procesos suspendidos con el comando jobs
 
 Para ver qué procesos tienes suspendidos puedes usar:
 
@@ -90,7 +90,7 @@ La terminal usa ese número para referirse al proceso.
 
 ---
 
-# Traer un proceso al foreground con fg
+## Traer un proceso al foreground con fg
 
 Si quieres volver al proceso que suspendiste puedes usar:
 
@@ -110,7 +110,7 @@ Ahora el proceso vuelve a ocupar la terminal.
 
 ---
 
-# Enviar un proceso al background con bg
+## Enviar un proceso al background con bg
 
 Después de hacer `Ctrl+Z`, también puedes mandar el proceso al background:
 
@@ -130,7 +130,7 @@ Puedes seguir usando el shell normalmente.
 
 ---
 
-# Ejemplo práctico usando Ctrl+Z y bg
+## Ejemplo práctico usando Ctrl+Z y bg
 
 Imagina que estás ejecutando:
 
@@ -154,7 +154,7 @@ El servidor seguirá ejecutándose mientras trabajas en la terminal.
 
 ---
 
-# Terminar un proceso con kill
+## Terminar un proceso con kill
 
 Si ya no necesitas el proceso puedes terminarlo.
 
@@ -181,7 +181,7 @@ $ kill %%
 
 ---
 
-# Resumen rápido
+## Resumen rápido
 
 Los comandos más útiles para controlar procesos en la terminal son:
 
@@ -195,7 +195,7 @@ Los comandos más útiles para controlar procesos en la terminal son:
 
 ---
 
-# Cuándo es útil controlar procesos en la terminal
+## Cuándo es útil controlar procesos en la terminal
 
 Esto es especialmente útil cuando:
 
@@ -208,18 +208,18 @@ No es algo complicado, pero una vez que te acostumbras es difícil dejar de usar
 
 ---
 
-# FAQ
+## FAQ
 
-## ¿Qué hace Ctrl+Z en la terminal?
+### ¿Qué hace Ctrl+Z en la terminal?
 
 `Ctrl+Z` suspende el proceso actual. El proceso no termina, simplemente queda pausado.
 
-## ¿Qué diferencia hay entre fg y bg?
+### ¿Qué diferencia hay entre fg y bg?
 
 * `fg` trae el proceso al **foreground**.
 * `bg` hace que el proceso continúe ejecutándose en **background**.
 
-## ¿Cómo ver los procesos en segundo plano?
+### ¿Cómo ver los procesos en segundo plano?
 
 Puedes usar el comando:
 
@@ -231,7 +231,7 @@ para ver todos los procesos gestionados por el shell actual.
 
 ---
 
-## Fuentes
+### Fuentes
 
 * [Shell CTRL-C CTRL-Z, fg, bg, jobs](https://www.youtube.com/watch?v=4xN6pdUXj14)
 * [Understanding `bg` and `&` to background jobs in Bash - You Suck at Programming #050](https://www.youtube.com/watch?v=IhT5QSTCPps)

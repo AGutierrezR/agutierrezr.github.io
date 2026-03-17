@@ -33,7 +33,7 @@ Aquí es donde entra una herramienta muy útil llamada **mprocs**.
 
 ---
 
-# Qué es mprocs
+## Qué es mprocs
 
 **mprocs** es una herramienta CLI que permite **ejecutar múltiples comandos en paralelo dentro de una sola terminal**.
 
@@ -59,7 +59,7 @@ Si quieres keymaps, puedes acceder [aquí](https://github.com/pvolok/mprocs?tab=
 
 ---
 
-# Ejecutar varios comandos en paralelo
+## Ejecutar varios comandos en paralelo
 
 La forma más simple de usar `mprocs` es pasarle los comandos directamente.
 
@@ -88,7 +88,7 @@ Esto listará automáticamente todos los scripts disponibles en el proyecto.
 
 ---
 
-# Usar un archivo de configuración
+## Usar un archivo de configuración
 
 Si siempre ejecutas los mismos procesos, es más cómodo usar un archivo de configuración llamado `mprocs.yaml`.
 
@@ -115,7 +115,7 @@ Y se lanzarán automáticamente todos los procesos definidos.
 
 ---
 
-# Cuándo es útil usar mprocs
+## Cuándo es útil usar mprocs
 
 `mprocs` es especialmente útil cuando trabajas con proyectos que necesitan **varios servicios ejecutándose al mismo tiempo**.
 
@@ -130,7 +130,7 @@ En lugar de abrir muchas terminales, puedes ver todo desde un solo sitio.
 
 ---
 
-# Alternativas a mprocs
+## Alternativas a mprocs
 
 Existen otras herramientas que permiten ejecutar varios procesos desde la terminal, como:
 
@@ -144,7 +144,7 @@ No requiere prácticamente configuración para empezar.
 
 ---
 
-# Conclusión
+## Conclusión
 
 Si tu proyecto necesita ejecutar varios procesos al mismo tiempo, abrir múltiples terminales suele ser la solución más común.
 
@@ -156,13 +156,13 @@ Una vez que te acostumbras, es difícil volver a gestionar varios procesos manua
 
 ---
 
-# FAQ
+## FAQ
 
-## ¿Qué es mprocs?
+### ¿Qué es mprocs?
 
 mprocs es una herramienta CLI que permite ejecutar múltiples comandos en paralelo y visualizar sus logs en una interfaz de terminal.
 
-## ¿Para qué sirve ejecutar comandos en paralelo?
+### ¿Para qué sirve ejecutar comandos en paralelo?
 
 Permite trabajar con proyectos que requieren varios servicios simultáneamente, como servidores de desarrollo, watchers o tests automáticos.
 
