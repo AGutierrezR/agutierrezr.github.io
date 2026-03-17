@@ -1,7 +1,7 @@
 ---
 import Seo from '../components/Seo.astro'
 
-const { title, description, image, robots } = Astro.props
+const { title, description, image, robots, keywords } = Astro.props
 ---
 
 <head>
@@ -10,6 +10,7 @@ const { title, description, image, robots } = Astro.props
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="generator" content={Astro.generator} />
   <meta name="description" content={description} />
+  {keywords && <meta name="keywords" content={keywords} />}
   <title>{title}</title>
 
   <Seo {title} {description} url={Astro.url} {image} {robots} />

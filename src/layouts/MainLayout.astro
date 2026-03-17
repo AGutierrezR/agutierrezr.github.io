@@ -5,11 +5,11 @@ import Header from '../components/Header.astro'
 
 import '../css/styles.css'
 
-const { title, description } = Astro.props
+const { title, description, keywords } = Astro.props
 ---
 
 <html lang="es">
-  <MainHead title={title} description={description} />
+  <MainHead title={title} description={description} {keywords} />
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <Header />
