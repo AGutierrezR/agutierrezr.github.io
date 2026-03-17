@@ -55,7 +55,7 @@
   category: diagramas
 
 - name: Mindmeister
-  url: mindmeister
+  url: https://mindmeister.com/
   category: diagramas
 
 - name: Coolors
@@ -206,7 +206,7 @@
   url: https://bennettfeely.com/clippy/
   category: herramientas
 
-- name: Glassmorphoism
+- name: Glassmorphism
   url: https://hype4.academy/tools/glassmorphism-generator
   category: css tools
 
@@ -374,10 +374,6 @@
   url: https://devchallenges.io/
   category: practicas
 
-- name: Explain Shell
-  url: https://explainshell.com/
-  category: herramientas
-
 - name: Cheat.sh
   url: https://cheat.sh/
   category: herramientas
@@ -409,4 +405,8 @@
 - name: Web Install
   url: https://webinstall.dev/
   category: herramientas
+
+- name: DeepWiki
+  url: https://deepwiki.com/
+  category: ia
 
