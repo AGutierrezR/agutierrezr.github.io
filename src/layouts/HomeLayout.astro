@@ -4,7 +4,7 @@ import MainLayout from './MainLayout.astro'
 const { frontmatter } = Astro.props
 ---
 
-<MainLayout title={frontmatter.metaTitle} description={frontmatter.metaDesc}>
+<MainLayout title={frontmatter.metaTitle} description={frontmatter.metaDesc} keywords={frontmatter.metaKeywords}>
   <main tabindex="-1" id="main-content" class="cover">
     <div class="home-intro wrapper flow">
       <slot />
