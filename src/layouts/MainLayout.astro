@@ -9,7 +9,7 @@ const { title, description, keywords } = Astro.props
 ---
 
 <html lang="es">
-  <MainHead title={title} description={description} {keywords} />
+  <MainHead {title} {description} {keywords} />
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <Header />
