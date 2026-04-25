@@ -389,3 +389,10 @@ No. Zod complementa a TypeScript validando datos en runtime.
 ### ¿Cuándo usar Zod?
 
 Cuando trabajas con datos externos como APIs, formularios o archivos de configuración.
+
+---
+
+## Recursos
+
+- [zod+js+jsdoc.js](https://gist.github.com/pmuellr/60668d33049f96ce7323f5eab648f468) 
+
