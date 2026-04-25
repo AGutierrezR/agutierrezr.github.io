@@ -4,7 +4,7 @@ title: 'Zod: cómo validar datos en JavaScript y TypeScript (guía práctica)'
 date: 2026-04-09
 description: Aprende a validar datos en JavaScript y TypeScript con Zod. Evita errores en runtime validando APIs, formularios y configs con ejemplos prácticos.
 draft: false
-tags: [zod, javascript, typescript]
+tags: [javascript, typescript]
 ---
 
 Imagina este escenario: Tu aplicación recibe datos de una API externa, los procesa y luego falla en producción porque el campo `email` llegó como `null`, o el campo `price` llegó como string en lugar de número, rompiendo los cálculos.
@@ -19,8 +19,6 @@ En esta publicación aprenderás:
 - Casos de uso prácticos: APIs, formularios, configuraciones
 - Comparación con Joi para validar respuestas de APIs
 
----
-
 ## ¿Qué es Zod?
 
 Zod es una librería de validación diseñada para JavaScript y TypeScript. Te permite definir esquemas para validar cualquier tipo de dato: objetos, strings, números, arrays, y más.
@@ -29,8 +27,6 @@ Características principales:
 - **Cero dependencias**: Ligera y eficiente
 - **API intuitiva**: Métodos que se encadenan naturalmente
 - **validación síncrona y asíncrona**: Soporta ambos modos
-
----
 
 ## Cómo validar datos en JavaScript con Zod
 
@@ -112,8 +108,6 @@ passwordSchema.parse('cG18sZwfdd') // ✓
 passwordSchema.parse('mah9hx9khy') // ✗ Error
 ```
 
----
-
 ## Manejo de errores en Zod
 
 Cuando la validación falla, Zod proporciona errores detallados:
@@ -155,8 +149,6 @@ if (!result.success) {
 La instancia de `$ZodError` contiene un array `.issues`. Cada uno de estos contiene un `message`
 
 </aside>
-
----
 
 ## Casos de uso reales de Zod
 
@@ -363,8 +355,6 @@ console.log(result)
 // }
 ```
 
----
-
 ## Conclusión
 
 Zod resuelve un problema fundamental en JavaScript: la falta de validación runtime. Con Zod, puedes definir esquemas una vez y usarlos en toda tu aplicación.
@@ -373,8 +363,6 @@ Las ventajas principales:
 1. **Código limpio**: API intuitiva y legible
 2. **Múltiples casos de uso**: APIs, formularios, configs, archivos
 3. **Comunidad activa**: Buena documentación y soporte
-
----
 
 ## FAQ
 
@@ -389,8 +377,6 @@ No. Zod complementa a TypeScript validando datos en runtime.
 ### ¿Cuándo usar Zod?
 
 Cuando trabajas con datos externos como APIs, formularios o archivos de configuración.
-
----
 
 ## Recursos
 

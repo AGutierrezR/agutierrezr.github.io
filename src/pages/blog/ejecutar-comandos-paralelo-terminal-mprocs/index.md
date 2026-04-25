@@ -31,8 +31,6 @@ Aquí es donde entra una herramienta muy útil llamada **mprocs**.
 
 ![](./assets/SCR-20260314-tooo.png)
 
----
-
 ## Qué es mprocs
 
 **mprocs** es una herramienta CLI que permite **ejecutar múltiples comandos en paralelo dentro de una sola terminal**.
@@ -56,8 +54,6 @@ Si quieres agregar un proceso manualmente, puedes hacerlo presionando la tecla `
 💡 **Nota:**
 Si quieres keymaps, puedes acceder [aquí](https://github.com/pvolok/mprocs?tab=readme-ov-file#default-keymap)
 </aside>
-
----
 
 ## Ejecutar varios comandos en paralelo
 
@@ -86,8 +82,6 @@ mprocs --npm
 
 Esto listará automáticamente todos los scripts disponibles en el proyecto.
 
----
-
 ## Usar un archivo de configuración
 
 Si siempre ejecutas los mismos procesos, es más cómodo usar un archivo de configuración llamado `mprocs.yaml`.
@@ -113,8 +107,6 @@ mprocs
 
 Y se lanzarán automáticamente todos los procesos definidos.
 
----
-
 ## Cuándo es útil usar mprocs
 
 `mprocs` es especialmente útil cuando trabajas con proyectos que necesitan **varios servicios ejecutándose al mismo tiempo**.
@@ -128,8 +120,6 @@ Por ejemplo:
 
 En lugar de abrir muchas terminales, puedes ver todo desde un solo sitio.
 
----
-
 ## Alternativas a mprocs
 
 Existen otras herramientas que permiten ejecutar varios procesos desde la terminal, como:
@@ -142,8 +132,6 @@ Sin embargo, **mprocs destaca por su interfaz simple y fácil de usar directamen
 
 No requiere prácticamente configuración para empezar.
 
----
-
 ## Conclusión
 
 Si tu proyecto necesita ejecutar varios procesos al mismo tiempo, abrir múltiples terminales suele ser la solución más común.
@@ -154,7 +142,6 @@ Puedes arrancar todos los procesos a la vez y ver sus logs en una sola terminal.
 
 Una vez que te acostumbras, es difícil volver a gestionar varios procesos manualmente en diferentes ventanas.
 
----
 
 ## FAQ
 

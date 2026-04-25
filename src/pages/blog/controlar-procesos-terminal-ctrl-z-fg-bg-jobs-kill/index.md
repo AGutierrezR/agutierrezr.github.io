@@ -38,8 +38,6 @@ Los comandos principales son:
 
 Vamos a ver cómo funcionan.
 
----
-
 ## Pausar un proceso en la terminal con Ctrl+Z
 
 Supongamos que estás ejecutando algo en la terminal:
@@ -68,8 +66,6 @@ Ambos significan lo mismo:
 
 El proceso sigue existiendo, pero está **pausado y no ejecutándose**.
 
----
-
 ## Ver procesos suspendidos con el comando jobs
 
 Para ver qué procesos tienes suspendidos puedes usar:
@@ -87,8 +83,6 @@ Y verás algo como:
 Ese `[1]` es el **job id**.
 
 La terminal usa ese número para referirse al proceso.
-
----
 
 ## Traer un proceso al foreground con fg
 
@@ -108,8 +102,6 @@ $ fg %1
 
 Ahora el proceso vuelve a ocupar la terminal.
 
----
-
 ## Enviar un proceso al background con bg
 
 Después de hacer `Ctrl+Z`, también puedes mandar el proceso al background:
@@ -127,8 +119,6 @@ Ejemplo de salida:
 Ahora el proceso **sigue ejecutándose**, pero ya no ocupa la terminal.
 
 Puedes seguir usando el shell normalmente.
-
----
 
 ## Ejemplo práctico usando Ctrl+Z y bg
 
@@ -151,8 +141,6 @@ En lugar de abrir otra terminal puedes hacer esto:
 3. Ejecutar el otro comando
 
 El servidor seguirá ejecutándose mientras trabajas en la terminal.
-
----
 
 ## Terminar un proceso con kill
 
@@ -179,8 +167,6 @@ También puedes matar el último proceso con:
 $ kill %%
 ```
 
----
-
 ## Resumen rápido
 
 Los comandos más útiles para controlar procesos en la terminal son:
@@ -193,7 +179,6 @@ Los comandos más útiles para controlar procesos en la terminal son:
 | Enviar al background | `bg %<id>`   |
 | Terminar proceso     | `kill %<id>` |
 
----
 
 ## Cuándo es útil controlar procesos en la terminal
 
@@ -205,8 +190,6 @@ Esto es especialmente útil cuando:
 * Trabajas mucho en entornos Linux o macOS
 
 No es algo complicado, pero una vez que te acostumbras es difícil dejar de usarlo.
-
----
 
 ## FAQ
 
@@ -228,8 +211,6 @@ $ jobs
 ```
 
 para ver todos los procesos gestionados por el shell actual.
-
----
 
 ### Fuentes
 

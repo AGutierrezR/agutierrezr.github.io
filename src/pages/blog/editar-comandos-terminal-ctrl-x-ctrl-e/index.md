@@ -27,8 +27,6 @@ Y de repente te das cuenta de que hay un error... al principio. Aquí normalment
 
 Ninguna es especialmente cómoda. Hay una forma mucho mejor.
 
----
-
 ## Editar comandos en Bash y Zsh con Ctrl+X Ctrl+E
 
 Cuando estás escribiendo un comando en la terminal, puedes hacer:
@@ -44,8 +42,6 @@ Se abre tu editor (como Vim, Nano o Visual Studio Code) con el comando que lleva
 Puedes editarlo tranquilamente, guardar y cerrar.
 
 Y cuando cierras... el comando se ejecuta automáticamente.
-
----
 
 ## Ejemplo real editando un comando largo
 
@@ -75,8 +71,6 @@ Se abre tu editor, realizas las modificaciones, guardas y cierras.
 
 Y el comando se ejecuta automáticamente.
 
----
-
 ## Cuándo usar Ctrl+X Ctrl+E
 
 Este atajo es especialmente útil en varios casos.
@@ -84,8 +78,6 @@ Este atajo es especialmente útil en varios casos.
 - **Comandos multilínea**: Puedes escribir scripts de shell complejos al momento, incluyendo bucles, condicionales y funciones correctamente estructurados.
 - **Edición del historial de comandos**: Cuando quieres modificar un comando complejo de tu historial que resulta difícil de editar directamente en la línea.
 - **Construcción a partir de plantillas**: Empieza con una estructura básica de comando y luego amplíala en tu editor hasta convertirla en algo más completo.
-
----
 
 ## Configurar el editor en la terminal
 
@@ -111,8 +103,6 @@ export EDITOR="code --wait"
 
 Hace que la terminal espere a que cierres el editor antes de ejecutar el comando.
 
----
-
 ## Cómo probar Ctrl+X Ctrl+E
 
 Puedes probarlo rápidamente:
@@ -134,8 +124,6 @@ Ctrl + X  Ctrl + E
 
 El comando se ejecutará automáticamente.
 
----
-
 ## Conclusión
 
 Editar comandos largos en la terminal puede ser incómodo.
@@ -143,8 +131,6 @@ Editar comandos largos en la terminal puede ser incómodo.
 Pero con `Ctrl+X Ctrl+E` puedes usar tu editor habitual para hacerlo de forma mucho más cómoda.
 
 No es algo que uses constantemente, pero cuando trabajas con comandos complejos, marca una gran diferencia.
-
----
 
 ## FAQ
 

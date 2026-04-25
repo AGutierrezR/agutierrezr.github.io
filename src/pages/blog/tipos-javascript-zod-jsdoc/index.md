@@ -4,7 +4,7 @@ title: Cómo tener tipos en JavaScript sin TypeScript usando Zod y JSDoc
 date: 2026-04-10
 description: Aprende cómo tener tipos en JavaScript sin TypeScript usando Zod y JSDoc. Valida datos en runtime y obtén autocompletado sin configuración.
 draft: false
-tags: [javascript, zod, jsdoc, types, typescript]
+tags: [javascript, jsdoc, typescript]
 ---
 
 Los tipos en JavaScript pueden parecer un lujo innecesario, pero cuando trabajas en proyectos personales o prototipos rápidos, tener algo de verificación puede ahorrarte horas de depuración.

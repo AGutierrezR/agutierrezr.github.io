@@ -36,6 +36,10 @@
   --flow-space: 0.5em;
 }
 
+.prose :is(h2) {
+  --flow-space: var(--space-2xl);
+}
+
 .prose :is(h2 + *, h3 + *, h4 + *) {
   --flow-space: var(--space-s);
 }

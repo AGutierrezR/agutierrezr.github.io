@@ -11,8 +11,6 @@ Con el tiempo fui acumulando muchas herramientas en mi entorno de terminal. Hace
 
 Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizadas por categorías. Todas ellas están pensadas para mejorar la productividad cuando trabajas desde la terminal en sistemas como Linux o macOS.
 
----
-
 ## Herramientas CLI esenciales
 
 ### Utilidades generales para la terminal
@@ -40,8 +38,6 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
 * **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**:
   Plugin de Zsh que sugiere comandos basándose en tu historial.
 
----
-
 ### Herramientas CLI para Git y control de versiones
 
 - **[worktrunk](https://github.com/max-sixty/worktrunk)**
@@ -53,16 +49,12 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
 * **[jj (Jujutsu)](https://github.com/jj-vcs/jj)**:
   Sistema de control de versiones moderno inspirado en Git y Mercurial, con operaciones más seguras y reversibles.
 
----
-
 ### Manejo de procesos y sesiones en terminal
 
 * **[tmux](https://github.com/tmux/tmux)**:
   Multiplexor de terminal que permite múltiples sesiones, paneles y persistencia.
 * **[mprocs](https://github.com/pvolok/mprocs)**:
   Ejecuta y monitoriza múltiples procesos en paralelo desde una interfaz TUI.
-
----
 
 ## Otras herramientas CLI útiles
 
@@ -91,8 +83,6 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
 * **[q](https://github.com/cal2195/q)**:
   Macros al estilo Vim para shell de bash o zsh.
 
----
-
 ### Herramientas CLI para trabajar con JSON y CSV
 
 * **[jnv](https://github.com/ynqa/jnv)**:
@@ -104,14 +94,10 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
 * **[csvlens](https://github.com/YS-L/csvlens)**:
   Visualizador interactivo de CSV con navegación tipo spreadsheet.
 
----
-
 ### Herramientas para visualizar logs en terminal
 
 * **[tl](https://github.com/Textualize/toolong)**:
   Herramienta para visualizar y seguir logs desde la terminal.
-
----
 
 ### Herramientas de IA para la terminal
 
@@ -123,8 +109,6 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Cliente CLI para interactuar con modelos de lenguaje desde la terminal.
 * **[models](https://github.com/arimxyer/models)**:
   TUI y CLI para explorar modelos de IA, benchmarks y agentes de codificación.
-
----
 
 ## Combinaciones de herramientas especialmente útiles
 
