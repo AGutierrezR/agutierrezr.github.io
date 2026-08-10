@@ -48,6 +48,12 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Mejora la legibilidad de `git diff` con una salida más clara.
 * **[jj (Jujutsu)](https://github.com/jj-vcs/jj)**:
   Sistema de control de versiones moderno inspirado en Git y Mercurial, con operaciones más seguras y reversibles.
+* **[tuicr](https://tuicr.dev/)**:
+  TUI para hacer code review en la terminal con keybindings de Vim y comentarios en línea que puedes enviar a GitHub o a tus agentes de IA.
+* **[gh-dash](https://www.gh-dash.dev/)**:
+  Panel TUI para GitHub con tus pull requests, issues y repositorios en secciones personalizables.
+* **[hunk](https://www.hunk.dev/)**:
+  Visor de diffs para terminal enfocado en revisión de código, con resaltado de sintaxis y notas de agentes de IA.
 
 ### Manejo de procesos y sesiones en terminal
 
@@ -105,6 +111,8 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Agente de IA open source para tareas de programación.
 - **[GitHub Copilot CLI](https://github.com/github/copilot-cli)**:
   Copilot para la terminal que genera y explica comandos. (Similar a opencode)
+* **[pi](https://pi.dev)**:
+  Agente de programación para la terminal, minimalista y extensible con skills y extensiones en TypeScript.
 * **[mods](https://github.com/charmbracelet/mods)**:
   Cliente CLI para interactuar con modelos de lenguaje desde la terminal.
 * **[models](https://github.com/arimxyer/models)**:
