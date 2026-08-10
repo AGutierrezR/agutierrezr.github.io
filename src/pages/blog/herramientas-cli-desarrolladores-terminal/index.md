@@ -17,6 +17,8 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
 
 * **[fzf](https://github.com/junegunn/fzf)**:
   Fuzzy finder extremadamente rápido para la terminal. Permite buscar interactivamente archivos, historial, procesos o cualquier lista de texto.
+* **[television](https://github.com/alexpasmantier/television)**:
+  Fuzzy finder TUI ultrarrápido que combina búsqueda difusa con previews y canales para navegar por archivos, historial, buffers, procesos y mucho más.
 * **[atuin](https://github.com/atuinsh/atuin)**:
   Reemplazo moderno del historial de shell con búsqueda avanzada y sincronización opcional entre máquinas.
 * **[bat](https://github.com/sharkdp/bat)**:
@@ -33,6 +35,8 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Gestor de versiones de Node.js extremadamente rápido.
 * **[ripgrep](https://github.com/BurntSushi/ripgrep)**:
   Búsqueda recursiva ultrarrápida basada en regex, optimizada para repositorios grandes.
+* **[zinit](https://github.com/zdharma-continuum/zinit)**:
+  Gestor de plugins para Zsh flexible y rápido, con carga diferida de plugins y temas.
 * **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**:
   Plugin de Zsh que resalta la sintaxis de los comandos mientras escribes.
 * **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**:
@@ -48,6 +52,12 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Mejora la legibilidad de `git diff` con una salida más clara.
 * **[jj (Jujutsu)](https://github.com/jj-vcs/jj)**:
   Sistema de control de versiones moderno inspirado en Git y Mercurial, con operaciones más seguras y reversibles.
+* **[tuicr](https://tuicr.dev/)**:
+  TUI para hacer code review en la terminal con keybindings de Vim y comentarios en línea que puedes enviar a GitHub o a tus agentes de IA.
+* **[gh-dash](https://www.gh-dash.dev/)**:
+  Panel TUI para GitHub con tus pull requests, issues y repositorios en secciones personalizables.
+* **[hunk](https://www.hunk.dev/)**:
+  Visor de diffs para terminal enfocado en revisión de código, con resaltado de sintaxis y notas de agentes de IA.
 
 ### Manejo de procesos y sesiones en terminal
 
@@ -80,6 +90,8 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Alternativa simplificada a `man` con ejemplos prácticos.
 * **[starship](https://github.com/starship/starship)**:
   Prompt rápido, minimalista y altamente configurable para cualquier shell.
+* **[powerlevel10k](https://github.com/romkatv/powerlevel10k)**:
+  Tema para Zsh con un prompt rápido, bonito y altamente configurable. Incluye integración con Git, indicadores de contexto y un asistente de configuración interactivo.
 * **[q](https://github.com/cal2195/q)**:
   Macros al estilo Vim para shell de bash o zsh.
 
@@ -105,6 +117,8 @@ Esta es mi lista actual de **herramientas CLI para desarrolladores**, organizada
   Agente de IA open source para tareas de programación.
 - **[GitHub Copilot CLI](https://github.com/github/copilot-cli)**:
   Copilot para la terminal que genera y explica comandos. (Similar a opencode)
+* **[pi](https://pi.dev)**:
+  Agente de programación para la terminal, minimalista y extensible con skills y extensiones en TypeScript.
 * **[mods](https://github.com/charmbracelet/mods)**:
   Cliente CLI para interactuar con modelos de lenguaje desde la terminal.
 * **[models](https://github.com/arimxyer/models)**:
