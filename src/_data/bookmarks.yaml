@@ -426,3 +426,15 @@
   url: https://uiverse.io/
   category: accesibilidad
 
+- name: Codefronts
+  url: https://codefronts.com/
+  category: referencias
+
+- name: Excalidraw
+  url: https://excalidraw.com/
+  category: herramientas
+
+- name: Excalidraw Tools
+  url: https://raideno.github.io/excalidraw-tools/#/
+  category: herramientas
+
