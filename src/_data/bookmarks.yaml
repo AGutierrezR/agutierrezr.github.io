@@ -270,6 +270,10 @@
   url: https://important-maiasaura-7ad.notion.site/ca65af340a524e3e9b2479355286a8ab?v=8e62bcfcc0fc46bf8400065f26902f57
   category: referencias
 
+- name: Neovim SOPs
+  url: https://important-maiasaura-7ad.notion.site/8e4a6b96004c4444933fbdf57c920909?v=7abdb532a73d4b939c12c1cd640a342d
+  category: referencias
+
 - name: Webdev Patterns
   url: https://web.dev/patterns/
   category: referencias
@@ -446,3 +450,6 @@
   url: https://models.dev/
   category: herramientas
 
+- name: Static Forms
+  url: https://www.staticforms.dev/blog
+  category: referencias
