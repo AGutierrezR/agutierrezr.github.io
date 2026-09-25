@@ -1,7 +1,7 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro'
 import socialMedia from '../_data/social-media'
-import { Icon } from 'astro-icon'
+import { Icon } from 'astro-icon/components'
 ---
 
 <MainLayout
@@ -23,7 +23,7 @@ import { Icon } from 'astro-icon'
                     class="inline-flex items-center gap-2xs"
                     aria-label={`Enlace hacia mi ${name}`}
                   >
-                    <Icon width="20" name={icon}} />
+                    <Icon width="20" name={icon} />
                     {slug}
                   </a>
                 </li>

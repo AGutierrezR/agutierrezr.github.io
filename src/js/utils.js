@@ -2,6 +2,10 @@ export function formatDate(date) {
   return new Date(date).toLocaleDateString(undefined, { timeZone: 'UTC' })
 }
 
+export function markdownEntries(modules) {
+  return Object.values(modules).map(({ url, frontmatter }) => ({ url, frontmatter }))
+}
+
 export function formatBlogPosts(posts, {
   filterOutDrafts = true,
   filterOutFuturePosts = true,

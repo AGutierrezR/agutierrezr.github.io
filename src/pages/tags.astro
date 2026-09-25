@@ -1,8 +1,8 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro'
-import { formatBlogPosts, groupedPostsByTags } from '../js/utils'
+import { formatBlogPosts, groupedPostsByTags, markdownEntries } from '../js/utils'
 
-const allPosts = await Astro.glob('./blog/**/*.md')
+const allPosts = markdownEntries(import.meta.glob('./blog/**/*.md', { eager: true }))
 const formattedPosts = formatBlogPosts(allPosts)
 const groupedByTags = groupedPostsByTags(formattedPosts)
 const tags = Object.keys(groupedByTags).sort()

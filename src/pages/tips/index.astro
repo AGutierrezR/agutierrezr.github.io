@@ -1,8 +1,8 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro'
-import { formatBlogPosts } from '../../js/utils'
+import { formatBlogPosts, markdownEntries } from '../../js/utils'
 
-const allPosts = await Astro.glob('./**/*.md')
+const allPosts = markdownEntries(import.meta.glob('./**/*.md', { eager: true }))
 const formattedPosts = formatBlogPosts(allPosts)
 ---
 
